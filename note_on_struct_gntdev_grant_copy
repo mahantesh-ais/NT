@@ -1,0 +1,39 @@
+*******Old structure*****
+
+struct iovec --> iov --> void *iov_base ... source address
+		     --> size_t iov_len ... source len 
+
+uint32_t ref --> granted page
+
+uint16_t offset --> offset granted in the page
+
+int16_t status --> grant copy result (GNTST_XXX)
+
+
+----------ioctl_gntdev_grant_copy ----structure old
+
+int dir --> copy direction : 0 to copy to guest and 1 to copy from guest 
+
+unsigned int domid --> domain ID 
+
+unsigned int count 
+
+struct gntdev_grant_copy_segments *segments
+
+*******New structure******
+
+
+union -->source, dest --> void *virt --> assuming source address
+		      --> struct foriegn --> grant_ref_t ref --> assuming granted page 
+					 --> __u16 offset --> assuming offset granted in page 
+					 --> domid_t domid --> assuming domain id
+	--> __u16 len --> assuming source len 
+	--> __u16 flags --> assuming direction --> 0 -> copy to source 
+						   1 -> copy to destination
+	--> __s16 status --> assuming grant copy result (GNTST_XXX)   
+
+---------ioctl_gntdev_grant_copy ----structure new
+
+unsigned int count --> assuming same as in the old structure
+
+struct gntdev_grant_copy_segments *segments -->assuming same as in the old structure

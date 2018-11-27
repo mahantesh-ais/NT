@@ -1,0 +1,22 @@
+
+
+             block tap --> userspace toolkit for disk io interface
+
+
+
+
+	1. blktap kernel driver in Dom0
+	2. blkfront instance of the driver in DomU
+	3. XenBus connecting blktap and blktfront
+
+	Additionally blktap has the following components in Dom0
+	1. /dev/blktap0 --a character device in Dom0
+	2. /dev/xen/blktapX -X is the number representing the virtual disk.
+	3. blktapctrl --userspace daemon responsible for creation of new virtual disks.
+	4. tapdisk --a process associated with every virtual disk and is spawned by blktapctrl and responsible for handling all the io requests to that virtual disk associated.
+	5.named pipes or fifo created to communicate between blktapctrl and tapdisk. 
+	6.fe_ring(frontend ring) requests from domUs are mapped to the tapdisk process handling the io for that virtual disk using the fe_ring. 
+
+	blktapctrl is started along with xend. 
+	For description with images refer to https://wiki.xenproject.org/wiki/Blktap 
+	

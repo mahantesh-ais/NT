@@ -1,0 +1,9 @@
+attachSignalHandlers appState uuid domid:
+	onNetworkSlaveSignal domid "networkslave_up" $ newSlave appState
+
+
+	onNetworkSlaveSignal:
+	let rule = matchSignal "com.citrix.xenclient.networkslave.notify" msgname
+     	in
+       	nwsOnSignal domid rule action
+

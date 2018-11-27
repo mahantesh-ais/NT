@@ -1,0 +1,32 @@
+t=VIF, domid = domid of frontend
+
+applyVmBackendShift
+---Xl.isRunning =<< getVms
+
+
+moveBackend VIF(VWIF) frontdomid id backdomid =
+ 	check if the backenddomid of the vif with 'id' is already 'backdomid' by reading it from getFrontDevices
+	if its already then return
+	else do detach and attach to new 'backdomid'
+
+getFrontDevices VIF(VWIF) domid =
+   return $ Just DmFront {
+                       dmfType = t
+                     , dmfID = id
+                     , dmfDomid = domid
+                     , dmfState = state
+                     , dmfBackPath = backpath_
+                     , dmfBackDomid = backdomid
+                     , dmfBackUuid = backdomuuid
+                   }
+
+xsDir dir
+    = listing of directories in dir
+
+dir = frontXSPath t domid
+    = deviceXSPath domid ++ "/vif"
+    = domainXSPath domid ++ "/device/vif"
+    = /local/domain/domid/device/vif
+
+
+

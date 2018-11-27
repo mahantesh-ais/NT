@@ -1,0 +1,12 @@
+NDVMUUID=`xec-vm -n Network get uuid`
+if [ "x$1" != "x$NDVMUUID" ]; then
+    exit 0
+fi
+
+if [ "x$2" != "xrunning" ]; then
+    exit 0
+fi
+
+NDVM=`xec-vm -n  Network get domid`
+`xl network-attach 0 backend=$NDVM bridge=brbridged`
+`udhcpc eth0`

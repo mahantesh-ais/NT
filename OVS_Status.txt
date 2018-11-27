@@ -1,0 +1,29 @@
+Current status of OVS is as below:
+* most of core work is done: dom0 gets an IP addr on start/reboot,
+                             bridges are set as and when required with the help of udev script /etc/xen/scripts/vif in ndvm
+			     adding of bridges is triggered through xl, for guests its written into config file as to what nics are to be added on start/reboot
+			     for dom0 its triggered through /etc/xen/scripts/network && /etc/xen/scripts/nw-attach, the former is triggered through editing the config file of ndvm (run-on-state-change), later is triggered by former.
+			     when ndvm is rebooted while some guests are still running:
+			     on ndvm state change to running, xenmgr re-attaches(detach-attach) any of the vifs related to each guests (ovs is not yet initialized at this moment in ndvm, currently I wait in a loop for it to be initialized before proceeding with bridge creation
+			     . This is not a good idea, the optimization is to wait for a signal from ovs init script to be sent to waiting processes and the waiting processes here being udev triggered vif script. This will require some sort of synchronization among
+			     the waiting processes hint:)
+
+* UI work(toolstack-data): modified code to show different Network options while guest creation. This is currently done with hard coded values as opposed to dynamic updates with the help of network-daemon and network-slave.
+                           Currently working with Network Menu icon, as of now it is able to establish Web-socket and hence DBus connection via rpc-broker in ndvm. But, on sending a signal (viptables -F and then click on Network) rpc-broker (port 8080) dies off with segfault.
+			   This is to be investigated with the help of gdb: nr, rw, opkg update, opkg install gdb, ro -> do these in dom0 to find what ipk's are installed. Then copy those ipk's from build machine to dom0 and then to ndvm (using scpv4v)
+			   in ndvm do opkg install path-to-ipks. Also copy dbg package ipk of rpc-broker into ndvm and install it (this is for debug symbols which will be used by gdb).
+			   The above requires changing ndvm to rw, refer relevant document.
+			   Note: Refer to ui debugging file to debug javascript in the surf browser.
+
+rpc broker and ovs work is merged, the latest build is #1797.
+xenclien-oe: mahantesh-ais/nm_rpcb
+toolstack-data: mahantesh-ais/rm_nwds_add_nic
+idl: mahantesh-ais/rm_nwd_nws
+manager: mahantesh-ais/rm_nwd_nws
+xctools: tijko/master
+
+
+ripley has the build tree along with a debug.patch for rpc-broker. 
+
+Other notes and scripts can be found here:
+https:://github.com/mahantesh-ais/NT

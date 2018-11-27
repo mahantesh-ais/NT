@@ -1,0 +1,6 @@
+notifyComCitrixXenclientXenmgrVmCreated xenmgrObjectPath show uuid (vmObjPath uuid)
+
+ xenmgrObjectPath = "/"
+ show uuid = string(uuid)
+ vmObjPath uuid = /vm/uuidstrunderscore
+

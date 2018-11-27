@@ -1,0 +1,47 @@
+fix selinux 
+remove log file creation in blktap3: /var/log/blktap/tapdisk**
+fix xsm
+create ticket for synchronizer support
+rename blktap3 repo, fork the original blktap3 and create meaningful commits 
+redo all commits in xenclient-oe, installer, toolstack and xen-xsm-policy
+pull request
+
+
+commit fixes:
+-> compilation fixes - resolving errors in oe, clean and fix
+-> run time fixes - misc patch , Header fix, DEBUG mode
+-> disable log file creation
+-> disable hot-plug
+-> fix grant copy - flag verification, compilation fix
+-> add device string support to destroy - *mount.patch
+-> crypto patch - keyhash and then encryption
+
+
+commit fixes for xenclient-oe:
+-> xl/libxl and other changes in xen:Adding blktap3 support ;    HVM and HVM crypto fix, silence QA warnings ...., bktap2*kernel*, xen-installer *, tap-ctl destroy, tapdisk3 crypto dir, tap-ctl find pid, tapback-daemon, *xen-blktap*, blktap3, blktap3 crypto support,
+								add missing file, init script for tapback, initscript, libxl-blktap3-patch fix
+								
+								*) blktap3 support
+								*) crypto support
+								*) xen-blktap removal, silence QA warnings and re-add 
+								*) blktap2 kernel module fix
+								*) misc : xen-installer fix
+-> selinux policy for blktap3; *selinux*
+
+-> misc; 
+
+
+Oct  4 15:56:24.569765 kernel:[   12.219650] audit: type=1400 audit(1507132584.550:10): avc:  denied  { write } for  pid=936 comm="tapdisk" name="/" dev="tmpfs" ino=10388 scontext=system_u:system_r:tapdisk_t:s0-s0:c0.c1023 tcontext=system_u:object_r:tmpfs_t:s0 tclass=dir permissive=1
+
+
+recipes-core/images/xenclient-syncvm-image.bb
+recipes-core/packagegroups/packagegroup-xenclient-dom0.bb
+recipes-core/packagegroups/packagegroup-xenclient-installer.bb
+recipes-extended/xen/xen-libxl.bb
+recipes-extended/xen/xen-ocaml-libs.bb
+recipes-extended/xen/xen.bb
+recipes-extended/xen/xen-hypervisor.bb
+recipes-openxt/qemu-dm/qemu-dm.inc
+recipes-openxt/xenclient/debs/deb-libxenstore_git.bb
+recipes-openxt/xenclient/debs/deb-xenstore-client-tools.bb
+

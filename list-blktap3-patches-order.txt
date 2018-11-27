@@ -1,0 +1,8 @@
+blktap3-vhd-encryption-support.patch
+blktap3-vhd-keyhash-support.patch
+blktap3-vhd-marker-flag.patch  ---changes already present.
+blktap3-vhd-print-allocated-virtblock-list.patch ---changes already present
+blktap3-miscellaneous-oxt-fixes.patch
+blktap3-libvhd-atomic-write-helpers.patch ---changes already present
+blktap3-vhd-icbinn-support.patch 
+blktap3-tap-ctl-optional-pid-ro-mount.patch 

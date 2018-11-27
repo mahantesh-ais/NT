@@ -1,0 +1,1685 @@
+Nov  2 18:48:31.439588 xenmgr: starting VM 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:31.440992 xenmgr: active vms, state = "shutdown"
+Nov  2 18:48:31.453054 surfman: Info: Received dbus message method_call:vgpu_mode
+Nov  2 18:48:31.500176 xenconsoled: Network (1): network-slave: Add entry if missing - 32 rt-wlan0
+Nov  2 18:48:31.501272 xenconsoled: Network (1): network-slave: lookup tables from ip rule show []
+Nov  2 18:48:31.520293 xenmgr: gathered config for VM 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:31.523189 xenmgr: active vms, state = "shutdown"
+Nov  2 18:48:31.523475 xenmgr: done checks for VM 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:31.556120 xenmgr: written xl config for 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:31.560845 xenmgr: waitForState: i_state: shutdown state: creating-devices
+Nov  2 18:48:31.560913 xenmgr: Wait for vm 698d06e8-9c84-4420-88c9-0a1df315fea6 state to become creating-devices
+Nov  2 18:48:31.561279 xenmgr: active vms, state = "shutdown"
+Nov  2 18:48:31.570942 xenmgr: vm state change 698d06e8-9c84-4420-88c9-0a1df315fea6: creating-devices
+Nov  2 18:48:31.571342 xl: libxl_dom.c:242:hvm_set_viridian_features: base group enabled
+Nov  2 18:48:31.571350 xl: libxl_dom.c:242:hvm_set_viridian_features: freq group enabled
+Nov  2 18:48:31.571357 xl: libxl_dom.c:242:hvm_set_viridian_features: time_ref_count group enabled
+Nov  2 18:48:31.571363 xl: libxl_dom.c:242:hvm_set_viridian_features: apic_assist group enabled
+Nov  2 18:48:31.571369 xl: libxl_dom.c:242:hvm_set_viridian_features: crash_ctl group enabled
+Nov  2 18:48:31.571522 xenmgr: active vms, state = "creating-devices"
+Nov  2 18:48:31.572076 xenmgr: active vms, state = "creating-devices"
+Nov  2 18:48:31.581990 xenmgr: active vms, state = "creating-devices"
+Nov  2 18:48:31.600899 xenconsoled: hypervisor: (XEN) HVM5 save: CPU
+Nov  2 18:48:31.600909 xenconsoled: hypervisor: (XEN) HVM5 save: PIC
+Nov  2 18:48:31.600913 xenconsoled: hypervisor: (XEN) HVM5 save: IOAPIC
+Nov  2 18:48:31.600917 xenconsoled: hypervisor: (XEN) HVM5 save: LAPIC
+Nov  2 18:48:31.600920 xenconsoled: hypervisor: (XEN) HVM5 save: LAPIC_REGS
+Nov  2 18:48:31.600924 xenconsoled: hypervisor: (XEN) HVM5 save: PCI_IRQ
+Nov  2 18:48:31.600928 xenconsoled: hypervisor: (XEN) HVM5 save: ISA_IRQ
+Nov  2 18:48:31.600931 xenconsoled: hypervisor: (XEN) HVM5 save: PCI_LINK
+Nov  2 18:48:31.600935 xenconsoled: hypervisor: (XEN) HVM5 save: PIT
+Nov  2 18:48:31.600939 xenconsoled: hypervisor: (XEN) HVM5 save: RTC
+Nov  2 18:48:31.600942 xenconsoled: hypervisor: (XEN) HVM5 save: HPET
+Nov  2 18:48:31.600946 xenconsoled: hypervisor: (XEN) HVM5 save: PMTIMER
+Nov  2 18:48:31.601000 xenconsoled: hypervisor: (XEN) HVM5 save: MTRR
+Nov  2 18:48:31.601011 xenconsoled: hypervisor: (XEN) HVM5 save: VIRIDIAN_DOMAIN
+Nov  2 18:48:31.601016 xenconsoled: hypervisor: (XEN) HVM5 save: CPU_XSAVE
+Nov  2 18:48:31.601022 xenconsoled: hypervisor: (XEN) HVM5 save: VIRIDIAN_VCPU
+Nov  2 18:48:31.601028 xenconsoled: hypervisor: (XEN) HVM5 save: VMCE_VCPU
+Nov  2 18:48:31.601036 xenconsoled: hypervisor: (XEN) HVM5 save: TSC_ADJUST
+Nov  2 18:48:31.601125 xenconsoled: hypervisor: (XEN) HVM5 restore: CPU 0
+Nov  2 18:48:31.605125 tapdisk2[1114]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.605135 tapdisk2[1114]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.605231 tapdisk2[1119]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.605241 tapdisk2[1119]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.605345 tapdisk2[1292]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.605355 tapdisk2[1292]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.605426 tapdisk2[1300]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.605435 tapdisk2[1300]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.605514 tapdisk2[1315]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.605522 tapdisk2[1315]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.605589 tapdisk2[1114]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.605598 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605609 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605673 tapdisk2[1119]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.605681 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605688 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605761 tapdisk2[1292]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.605770 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605780 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605834 tapdisk2[1300]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.605842 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605852 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605896 tapdisk2[1315]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.605904 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.605915 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.610131 tapdisk2[3896]: I/O queue driver: lio
+Nov  2 18:48:31.611313 tapdisk2[3896]: received 'attach' message (uuid = 5)
+Nov  2 18:48:31.611457 tapdisk2[3896]: sending 'attach response' message (uuid = 5)
+Nov  2 18:48:31.611579 tapdisk2[3896]: received 'open' message (uuid = 5)
+Nov  2 18:48:31.611595 tapdisk2[3896]: block-aio open('/storage/isos/xc-tools.iso')
+Nov  2 18:48:31.611619 tapdisk2[3896]: open(/storage/isos/xc-tools.iso) with O_DIRECT
+Nov  2 18:48:31.611630 tapdisk2[3896]: Image size: #012#011pre sector_shift  [9119744]#012#011post sector_shift [17812]
+Nov  2 18:48:31.611636 tapdisk2[3896]: opened image /storage/isos/xc-tools.iso (1 users, state: 0x00000001, type: 0)
+Nov  2 18:48:31.611641 tapdisk2[3896]: VBD CHAIN:
+Nov  2 18:48:31.611647 tapdisk2[3896]: /storage/isos/xc-tools.iso: 0
+Nov  2 18:48:31.611896 tapdisk2[3896]: sending 'open response' message (uuid = 5)
+Nov  2 18:48:31.617054 kernel:[  461.561429] block tdf: sector-size: 512/512+0 capacity: 17812 discard: 0+0 flush: 0x112a00
+Nov  2 18:48:31.617817 tapdisk2[1114]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.617826 tapdisk2[1114]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.617901 tapdisk2[1119]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.617910 tapdisk2[1119]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.617987 tapdisk2[1292]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.617999 tapdisk2[1292]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.618067 tapdisk2[1300]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.618077 tapdisk2[1300]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.618156 tapdisk2[1315]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.618164 tapdisk2[1315]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.618228 tapdisk2[3896]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.618236 tapdisk2[3896]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.618293 tapdisk2[1114]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618301 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618311 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618369 tapdisk2[1119]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618377 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618389 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618467 tapdisk2[1292]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618480 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618494 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618562 tapdisk2[1300]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618572 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618586 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618649 tapdisk2[1315]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618659 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618670 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618736 tapdisk2[3896]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.618745 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.618754 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.623016 tapdisk2[3902]: I/O queue driver: lio
+Nov  2 18:48:31.624241 tapdisk2[3902]: received 'attach' message (uuid = 6)
+Nov  2 18:48:31.624370 tapdisk2[3902]: sending 'attach response' message (uuid = 6)
+Nov  2 18:48:31.624462 tapdisk2[3902]: received 'open' message (uuid = 6)
+Nov  2 18:48:31.628283 tapdisk2[3902]: /storage/disks/c7448217-7e97-4995-91d1-8cfe128ca702.vhd version: tap 0x00010003, b: 40000, a: 5309, f: 5190, n: 21788456
+Nov  2 18:48:31.628373 tapdisk2[3902]: opened image /storage/disks/c7448217-7e97-4995-91d1-8cfe128ca702.vhd (1 users, state: 0x00000001, type: 4)
+Nov  2 18:48:31.628381 tapdisk2[3902]: VBD CHAIN:
+Nov  2 18:48:31.628385 tapdisk2[3902]: /storage/disks/c7448217-7e97-4995-91d1-8cfe128ca702.vhd: 4
+Nov  2 18:48:31.628601 tapdisk2[3902]: sending 'open response' message (uuid = 6)
+Nov  2 18:48:31.629669 kernel:[  461.578112] block tdg: sector-size: 512/512+0 capacity: 163840000 discard: 0+0 flush: 0x112a00
+Nov  2 18:48:31.667552 kernel:[  461.616096] vbd vbd-5-1: -1 reading physical-device
+Nov  2 18:48:31.671378 kernel:[  461.620108] vbd vbd-5-1: -1 reading physical-device
+Nov  2 18:48:31.678287 tapdisk2[1114]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678299 tapdisk2[1114]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678390 tapdisk2[1119]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678401 tapdisk2[1119]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678490 tapdisk2[1292]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678500 tapdisk2[1292]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678576 tapdisk2[1300]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678586 tapdisk2[1300]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678652 tapdisk2[1315]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678660 tapdisk2[1315]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678728 tapdisk2[3896]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678737 tapdisk2[3896]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678809 tapdisk2[3902]: received 'pid' message (uuid = 0)
+Nov  2 18:48:31.678817 tapdisk2[3902]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:31.678888 tapdisk2[1114]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.678900 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.678911 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.678994 tapdisk2[1119]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679005 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679017 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679100 tapdisk2[1292]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679109 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679117 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679189 tapdisk2[1300]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679199 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679213 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679266 tapdisk2[1315]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679274 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679286 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679338 tapdisk2[3896]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679348 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679361 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679413 tapdisk2[3902]: received 'list' message (uuid = 65535)
+Nov  2 18:48:31.679422 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.679433 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:31.686804 xenmgr: applying v4v firewall rules due to 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:31.687204 xenmgr: active vms, state = "running"
+Nov  2 18:48:31.687269 xenmgr: active vms, state = "running"
+Nov  2 18:48:31.687337 xenmgr: active vms, state = "creating-devices"
+Nov  2 18:48:31.694463 xenmgr: firewall rule delta vms:
+Nov  2 18:48:31.694525 xenmgr: BEFORE: [ActiveVm {vmDomID = 1, vmStubdomID = Nothing, vmUuid = 00000000-0000-0000-0000-000000000002, vmMatchType = "ndvm", vmMatchName = "Network"},ActiveVm {vmDomID = 2, vmStubdomID = Nothing, vmUuid = 00000000-0000-0000-0000-000000000001, vmMatchType = "uivm", vmMatchName = "uivm"}]
+Nov  2 18:48:31.694541 xenmgr: NOW: [ActiveVm {vmDomID = 1, vmStubdomID = Nothing, vmUuid = 00000000-0000-0000-0000-000000000002, vmMatchType = "ndvm", vmMatchName = "Network"},ActiveVm {vmDomID = 2, vmStubdomID = Nothing, vmUuid = 00000000-0000-0000-0000-000000000001, vmMatchType = "uivm", vmMatchName = "uivm"}]
+Nov  2 18:48:31.706826 xenmgr: +v4v-rule viptables -I 1 --dom-in 6 --dom-out 0 --port-out 4001 -j ACCEPT
+Nov  2 18:48:31.710562 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 6:* -> 0:4001
+Nov  2 18:48:31.710752 xenmgr: +v4v-rule viptables -I 1 --dom-in 6 --dom-out 0 --port-out 4002 -j ACCEPT
+Nov  2 18:48:31.714333 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 6:* -> 0:4002
+Nov  2 18:48:31.714527 xenmgr: +v4v-rule viptables -I 1 --dom-in 6 --dom-out 0 --port-out 5000 -j ACCEPT
+Nov  2 18:48:31.718009 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 6:* -> 0:5000
+Nov  2 18:48:31.718247 xenmgr: +v4v-rule viptables -I 1 --dom-in 6 --dom-out 0 --port-out 5001 -j ACCEPT
+Nov  2 18:48:31.721772 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 6:* -> 0:5001
+Nov  2 18:48:31.721942 xenmgr: +v4v-rule viptables -I 1 --dom-in 6 --dom-out 0 --port-out 5100 -j ACCEPT
+Nov  2 18:48:31.725468 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 6:* -> 0:5100
+Nov  2 18:48:31.725559 xenmgr: +v4v-rule viptables -I 1 --dom-in 0 --dom-out 6 --port-in 4001 -j ACCEPT
+Nov  2 18:48:31.729055 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 0:4001 -> 6:*
+Nov  2 18:48:31.729264 xenmgr: +v4v-rule viptables -I 1 --dom-in 0 --dom-out 6 --port-in 4002 -j ACCEPT
+Nov  2 18:48:31.732885 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 0:4002 -> 6:*
+Nov  2 18:48:31.733130 xenmgr: +v4v-rule viptables -I 1 --dom-in 0 --dom-out 6 --port-in 5000 -j ACCEPT
+Nov  2 18:48:31.736674 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 0:5000 -> 6:*
+Nov  2 18:48:31.736866 xenmgr: +v4v-rule viptables -I 1 --dom-in 0 --dom-out 6 --port-in 5001 -j ACCEPT
+Nov  2 18:48:31.740428 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 0:5001 -> 6:*
+Nov  2 18:48:31.740598 xenmgr: +v4v-rule viptables -I 1 --dom-in 0 --dom-out 6 --port-in 5100 -j ACCEPT
+Nov  2 18:48:31.744080 xenconsoled: hypervisor: (XEN) VIPTables: ACCEPT 0:5100 -> 6:*
+Nov  2 18:48:31.749363 xenmgr: waitForState: i_state: creating-devices state: created
+Nov  2 18:48:31.749380 xenmgr: Wait for vm 698d06e8-9c84-4420-88c9-0a1df315fea6 state to become created
+Nov  2 18:48:32.692031 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:main:279] (stubdom-0) starting /usr/lib/xen/bin/qmp_helper
+Nov  2 18:48:32.692156 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:main:310] (stubdom-6) v4v ready, wait for a connection...
+Nov  2 18:48:32.692228 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:qmph_accept_unix_socket:195] (stubdom-6) Waiting for connection on unix socket
+Nov  2 18:48:32.693142 atapi_pt_helper: [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/atapi-pt-helper/0+gitAUTOINC+b695a5af21-r0/git/atapi_pt_helper/src/atapi_pt_helper.c:main:653] (stubdom-0) starting /usr/lib/xen/bin/atapi_pt_helper
+Nov  2 18:48:32.854686 tapdisk2[1114]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.854696 tapdisk2[1114]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.854760 tapdisk2[1119]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.854769 tapdisk2[1119]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.854828 tapdisk2[1292]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.854838 tapdisk2[1292]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.854902 tapdisk2[1300]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.854910 tapdisk2[1300]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.854977 tapdisk2[1315]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.854985 tapdisk2[1315]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.855053 tapdisk2[3896]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.855060 tapdisk2[3896]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.855127 tapdisk2[3902]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.855135 tapdisk2[3902]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.855198 tapdisk2[1114]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855207 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855218 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855278 tapdisk2[1119]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855287 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855297 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855350 tapdisk2[1292]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855358 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855368 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855417 tapdisk2[1300]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855425 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855435 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855490 tapdisk2[1315]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855498 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855508 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855558 tapdisk2[3896]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855566 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855575 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855629 tapdisk2[3902]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.855637 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.855647 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.860280 tapdisk2[1114]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860289 tapdisk2[1114]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.860443 tapdisk2[1119]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860481 tapdisk2[1119]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.860649 tapdisk2[1292]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860656 tapdisk2[1292]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.860756 tapdisk2[1300]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860766 tapdisk2[1300]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.860845 tapdisk2[1315]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860853 tapdisk2[1315]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.860922 tapdisk2[3896]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.860929 tapdisk2[3896]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.861001 tapdisk2[3902]: received 'pid' message (uuid = 0)
+Nov  2 18:48:32.861009 tapdisk2[3902]: sending 'pid response' message (uuid = 0)
+Nov  2 18:48:32.861091 tapdisk2[1114]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861099 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861109 tapdisk2[1114]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861191 tapdisk2[1119]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861198 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861206 tapdisk2[1119]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861281 tapdisk2[1292]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861289 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861297 tapdisk2[1292]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861363 tapdisk2[1300]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861371 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861381 tapdisk2[1300]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861445 tapdisk2[1315]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861453 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861461 tapdisk2[1315]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861527 tapdisk2[3896]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861535 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861544 tapdisk2[3896]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861608 tapdisk2[3902]: received 'list' message (uuid = 65535)
+Nov  2 18:48:32.861616 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.861624 tapdisk2[3902]: sending 'list response' message (uuid = 65535)
+Nov  2 18:48:32.914318 xenconsoled: hypervisor: (d6) mapping kernel into physical memory
+Nov  2 18:48:32.914411 xenconsoled: hypervisor: (d6) about to get started...
+Nov  2 18:48:32.982003 xenconsoled: Network (1): root: network-slave udev add vif6.0 notify
+Nov  2 18:48:32.984296 xenconsoled: Network (1): root: network-slave udev add vif6.1 notify
+Nov  2 18:48:32.986394 xenconsoled: Network (1): root: network-slave udev add vif6.1 notify
+Nov  2 18:48:32.988507 xenconsoled: Network (1): root: network-slave udev add vif6.0 notify
+Nov  2 18:48:33.003377 xenconsoled: Network (1): network-slave: Received a udev notify for vif6.0, exists : True 
+Nov  2 18:48:33.003385 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif6.0
+Nov  2 18:48:33.003389 xenconsoled: Network (1): network-slave: backendVifNotify vif6.0 6 0
+Nov  2 18:48:33.005561 xenconsoled: Network (1): network-slave: Received a udev notify for vif6.1, exists : True 
+Nov  2 18:48:33.005570 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif6.1
+Nov  2 18:48:33.005574 xenconsoled: Network (1): network-slave: backendVifNotify vif6.1 6 1
+Nov  2 18:48:33.010112 xenconsoled: Network (1): network-slave: Received a udev notify for vif6.1, exists : True 
+Nov  2 18:48:33.010120 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif6.1
+Nov  2 18:48:33.010124 xenconsoled: Network (1): network-slave: backendVifNotify vif6.1 6 1
+Nov  2 18:48:33.012819 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif6.1
+Nov  2 18:48:33.012829 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif6.0
+Nov  2 18:48:33.018551 xenconsoled: Network (1): network-slave: Received a udev notify for vif6.0, exists : True 
+Nov  2 18:48:33.018560 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif6.0
+Nov  2 18:48:33.018564 xenconsoled: Network (1): network-slave: backendVifNotify vif6.0 6 0
+Nov  2 18:48:33.027724 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif6.1
+Nov  2 18:48:33.031067 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif6.0
+Nov  2 18:48:33.034029 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared vif6.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:33.068089 rpc-proxy: incoming connection from domain 1, port 0x8146f20e, fd is 10
+Nov  2 18:48:33.076277 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.076446 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.076464 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.077271 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.077296 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.077577 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.078975 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.080279 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.081064 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.082106 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.085228 xenconsoled: sfsafs-dm (6): [    0.000000] Reserving virtual address space above 0xf5800000 (rounded to 0xf5800000)
+Nov  2 18:48:33.085237 xenconsoled: sfsafs-dm (6): [    0.000000] Linux version 4.9.40 (build@openxt2-oe) (gcc version 5.2.0 (GCC) ) #1 Mon Oct 23 22:18:29 EDT 2017
+Nov  2 18:48:33.085241 xenconsoled: sfsafs-dm (6): [    0.000000] KERNEL supported cpus:
+Nov  2 18:48:33.085245 xenconsoled: sfsafs-dm (6): [    0.000000] CPU: vendor_id 'GenuineIntel' unknown, using generic init.
+Nov  2 18:48:33.085264 xenconsoled: sfsafs-dm (6): [    0.000000] CPU: Your system may be unstable.
+Nov  2 18:48:33.085281 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  2 18:48:33.085285 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  2 18:48:33.085289 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  2 18:48:33.085293 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  2 18:48:33.085297 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Nov  2 18:48:33.085301 xenconsoled: sfsafs-dm (6): [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Nov  2 18:48:33.085305 xenconsoled: sfsafs-dm (6): [    0.000000] Released 0 page(s)
+Nov  2 18:48:33.085308 xenconsoled: sfsafs-dm (6): [    0.000000] e820: BIOS-provided physical RAM map:
+Nov  2 18:48:33.085338 xenconsoled: sfsafs-dm (6): [    0.000000] Xen: [mem 0x0000000000000000-0x000000000009ffff] usable
+Nov  2 18:48:33.085342 xenconsoled: sfsafs-dm (6): [    0.000000] Xen: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+Nov  2 18:48:33.085346 xenconsoled: sfsafs-dm (6): [    0.000000] Xen: [mem 0x0000000000100000-0x0000000008ffefff] usable
+Nov  2 18:48:33.085350 xenconsoled: sfsafs-dm (6): [    0.000000] NX (Execute Disable) protection: active
+Nov  2 18:48:33.085353 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.085353 xenconsoled: sfsafs-dm (6): [    0.000000] Hypervisor detected: Xen
+Nov  2 18:48:33.085357 xenconsoled: sfsafs-dm (6): [    0.000000] e820: last_pfn = 0x8fff max_arch_pfn = 0x1000000
+Nov  2 18:48:33.085361 xenconsoled: sfsafs-dm (6): [    0.000000] MTRR: Disabled
+Nov  2 18:48:33.085365 xenconsoled: sfsafs-dm (6): [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Nov  2 18:48:33.085367 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.085369 xenconsoled: sfsafs-dm (6): [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WC  WP  UC  UC  
+Nov  2 18:48:33.085373 xenconsoled: sfsafs-dm (6): [    0.000000] RAMDISK: [mem 0x01800000-0x02af4fff]
+Nov  2 18:48:33.085377 xenconsoled: sfsafs-dm (6): [    0.000000] 0MB HIGHMEM available.
+Nov  2 18:48:33.085382 xenconsoled: sfsafs-dm (6): [    0.000000] 143MB LOWMEM available.
+Nov  2 18:48:33.085405 xenconsoled: sfsafs-dm (6): [    0.000000]   mapped low ram: 0 - 08fff000
+Nov  2 18:48:33.085410 xenconsoled: sfsafs-dm (6): [    0.000000]   low ram: 0 - 08fff000
+Nov  2 18:48:33.085416 xenconsoled: sfsafs-dm (6): [    0.000000] Zone ranges:
+Nov  2 18:48:33.085420 xenconsoled: sfsafs-dm (6): [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  2 18:48:33.085424 xenconsoled: sfsafs-dm (6): [    0.000000]   Normal   [mem 0x0000000001000000-0x0000000008ffefff]
+Nov  2 18:48:33.085427 xenconsoled: sfsafs-dm (6): [    0.000000]   HighMem  empty
+Nov  2 18:48:33.085430 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.085431 xenconsoled: sfsafs-dm (6): [    0.000000] Movable zone start for each node
+Nov  2 18:48:33.085442 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.085463 xenconsoled: sfsafs-dm (6): [    0.000000] Early memory node ranges
+Nov  2 18:48:33.085513 xenconsoled: sfsafs-dm (6): [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Nov  2 18:48:33.085521 xenconsoled: sfsafs-dm (6): [    0.000000]   node   0: [mem 0x0000000000100000-0x0000000008ffefff]
+Nov  2 18:48:33.085526 xenconsoled: sfsafs-dm (6): [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x0000000008ffefff]
+Nov  2 18:48:33.085541 xenconsoled: sfsafs-dm (6): [    0.000000] p2m virtual area at c9800000, size is 400000
+Nov  2 18:48:33.085577 xenconsoled: sfsafs-dm (6): [    0.000000] Remapped 0 page(s)
+Nov  2 18:48:33.085581 xenconsoled: sfsafs-dm (6): [    0.000000] Using APIC driver Xen PV
+Nov  2 18:48:33.085585 xenconsoled: sfsafs-dm (6): [    0.000000] No local APIC present or hardware disabled
+Nov  2 18:48:33.085589 xenconsoled: sfsafs-dm (6): [    0.000000] APIC: disable apic facility
+Nov  2 18:48:33.085593 xenconsoled: sfsafs-dm (6): [    0.000000] APIC: switched to apic NOOP
+Nov  2 18:48:33.085597 xenconsoled: sfsafs-dm (6): [    0.000000] ------------[ cut here ]------------
+Nov  2 18:48:33.085601 xenconsoled: sfsafs-dm (6): [    0.000000] WARNING: CPU: 0 PID: 0 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/kernel/apic/apic_noop.c:102 noop_apic_read+0x39/0x40
+Nov  2 18:48:33.085604 xenconsoled: sfsafs-dm (6): [    0.000000] Modules linked in:
+Nov  2 18:48:33.085618 xenconsoled: sfsafs-dm (6): [    0.000000] CPU: 0 PID: 0 Comm: swapper Not tainted 4.9.40 #1
+Nov  2 18:48:33.085631 xenconsoled: sfsafs-dm (6): [    0.000000]  c141df24 c11a4009 c141df3c c103a90d 00000066 00000000 c2af5000 00000000
+Nov  2 18:48:33.085635 xenconsoled: sfsafs-dm (6): [    0.000000]  c141df50 c103a9e1 00000009 00000000 00000000 c141df58 c1027269 c141df60
+Nov  2 18:48:33.085648 xenconsoled: sfsafs-dm (6): [    0.000000]  c14866b0 c141df9c c147f60a c141dfec a759a65e 0000012f c141df94 02af5000
+Nov  2 18:48:33.085662 xenconsoled: sfsafs-dm (6): [    0.000000] Call Trace:
+Nov  2 18:48:33.085666 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.085682 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.085695 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c103a9e1>] warn_slowpath_null+0x11/0x20
+Nov  2 18:48:33.085708 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c1027269>] noop_apic_read+0x39/0x40
+Nov  2 18:48:33.085726 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c14866b0>] init_apic_mappings+0xda/0x129
+Nov  2 18:48:33.085739 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c147f60a>] setup_arch+0x97e/0x9b6
+Nov  2 18:48:33.085752 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c14778aa>] start_kernel+0x94/0x3a2
+Nov  2 18:48:33.085765 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c14772f7>] i386_start_kernel+0x9b/0x9f
+Nov  2 18:48:33.085793 xenconsoled: sfsafs-dm (6): [    0.000000]  [<c147ac19>] xen_start_kernel+0x486/0x48e
+Nov  2 18:48:33.085808 xenconsoled: sfsafs-dm (6): [    0.000000] ---[ end trace 5f6bd9c456bdce45 ]---
+Nov  2 18:48:33.085823 xenconsoled: sfsafs-dm (6): [    0.000000] e820: [mem 0x08fff000-0xffffffff] available for PCI devices
+Nov  2 18:48:33.085849 xenconsoled: sfsafs-dm (6): [    0.000000] Booting paravirtualized kernel on Xen
+Nov  2 18:48:33.085863 xenconsoled: sfsafs-dm (6): [    0.000000] Xen version: 4.9.0-xc (preserve-AD)
+Nov  2 18:48:33.085876 xenconsoled: sfsafs-dm (6): [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov  2 18:48:33.085889 xenconsoled: sfsafs-dm (6): [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 36478
+Nov  2 18:48:33.085911 xenconsoled: sfsafs-dm (6): [    0.000000] Kernel command line:  openxt_qemu_args="-xen-domid 5 -qmp v4v -device xenmou -xen-acpi-pm -nodefaults -no-user-config -name qemu-5.0 -display surfman -device VGA,vgamem_mb=16 -boot cd -soundhw ac97 -smp 2,maxcpus=2 -device e1000,id=vif0,netdev=net0,mac=b2:bc:c5:3c:91:ee -netdev type=tap,id=net0,ifname=vif5.0-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -device e1000,id=vwif1,netdev=net1,mac=32:ee:c6:62:94:34 -netdev type=tap,id=net1,ifname=vif5.1-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -machine xenfv,max-ram-below-4g=4026531840 -m 2032 -drive if=ide,index=2,readonly=on,media=cdrom,id=ide-5632,file=/dev/xvdc,format=file -drive file=/dev/xvda,if=ide,index=0,media=disk,format=raw,cache=writeback -drive file=atapi-pt-v4v:/dev/bsg/1:0:0:0,if=atapi-pt,media=cdrom,format=atapi-pt-fmt"
+Nov  2 18:48:33.085915 xenconsoled: sfsafs-dm (6): [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.085918 xenconsoled: sfsafs-dm (6): [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov  2 18:48:33.085922 xenconsoled: sfsafs-dm (6): [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Nov  2 18:48:33.085926 xenconsoled: sfsafs-dm (6): [    0.000000] Initializing CPU#0
+Nov  2 18:48:33.085958 xenconsoled: sfsafs-dm (6): [    0.000000] Initializing HighMem for node 0 (00000000:00000000)
+Nov  2 18:48:33.085964 xenconsoled: sfsafs-dm (6): [    0.000000] Memory: 119516K/147064K available (2892K kernel code, 360K rwdata, 1304K rodata, 300K init, 272K bss, 27548K reserved, 0K cma-reserved, 0K highmem)
+Nov  2 18:48:33.085970 xenconsoled: sfsafs-dm (6): [    0.000000] virtual kernel memory layout:
+Nov  2 18:48:33.085975 xenconsoled: sfsafs-dm (6): [    0.000000]     fixmap  : 0xf57a3000 - 0xf57ff000   ( 368 kB)
+Nov  2 18:48:33.085980 xenconsoled: sfsafs-dm (6): [    0.000000]     pkmap   : 0xf5400000 - 0xf5600000   (2048 kB)
+Nov  2 18:48:33.085990 xenconsoled: sfsafs-dm (6): [    0.000000]     vmalloc : 0xc97ff000 - 0xf53fe000   ( 699 MB)
+Nov  2 18:48:33.085996 xenconsoled: sfsafs-dm (6): [    0.000000]     lowmem  : 0xc0000000 - 0xc8fff000   ( 143 MB)
+Nov  2 18:48:33.086001 xenconsoled: sfsafs-dm (6): [    0.000000]       .init : 0xc1477000 - 0xc14c2000   ( 300 kB)
+Nov  2 18:48:33.086006 xenconsoled: sfsafs-dm (6): [    0.000000]       .data : 0xc12d35e4 - 0xc14750c0   (1670 kB)
+Nov  2 18:48:33.086011 xenconsoled: sfsafs-dm (6): [    0.000000]       .text : 0xc1000000 - 0xc12d35e4   (2893 kB)
+Nov  2 18:48:33.086016 xenconsoled: sfsafs-dm (6): [    0.000000] Using NULL legacy PIC
+Nov  2 18:48:33.086022 xenconsoled: sfsafs-dm (6): [    0.000000] NR_IRQS:2304 nr_irqs:32 0
+Nov  2 18:48:33.086027 xenconsoled: sfsafs-dm (6): [    0.000000] xen:events: Using FIFO-based ABI
+Nov  2 18:48:33.086032 xenconsoled: sfsafs-dm (6): [    0.000000] console [hvc0] enabled
+Nov  2 18:48:33.086059 xenconsoled: sfsafs-dm (6): [    0.000000] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Nov  2 18:48:33.086064 xenconsoled: sfsafs-dm (6): [    0.000000] installing Xen timer for CPU 0
+Nov  2 18:48:33.111636 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.1_OUT
+Nov  2 18:48:33.123000 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.1_OUT
+Nov  2 18:48:33.135719 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.1_IN
+Nov  2 18:48:33.152006 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.1_IN
+Nov  2 18:48:33.171560 xenconsoled: Network (1): network-slave: Configure vif6.1 before joining it to brwireless
+Nov  2 18:48:33.176062 xenconsoled: sfsafs-dm (6): [    0.000000] tsc: Fast TSC calibration failed
+Nov  2 18:48:33.176085 xenconsoled: sfsafs-dm (6): [    0.000000] tsc: Unable to calibrate against PIT
+Nov  2 18:48:33.176089 xenconsoled: sfsafs-dm (6): [    0.000000] tsc: No reference (HPET/PMTIMER) available
+Nov  2 18:48:33.176093 xenconsoled: sfsafs-dm (6): [    0.000000] tsc: Detected 2693.784 MHz processor
+Nov  2 18:48:33.176119 xenconsoled: sfsafs-dm (6): [    0.020000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5387.56 BogoMIPS (lpj=26937840)
+Nov  2 18:48:33.176127 xenconsoled: sfsafs-dm (6): [    0.020000] pid_max: default: 32768 minimum: 301
+Nov  2 18:48:33.176142 xenconsoled: sfsafs-dm (6): [    0.020000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.176146 xenconsoled: sfsafs-dm (6): [    0.020000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.176291 xenconsoled: sfsafs-dm (6): [    0.020000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Nov  2 18:48:33.176298 xenconsoled: sfsafs-dm (6): [    0.020000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Nov  2 18:48:33.176315 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: GenuineIntel Intel(R) Core(TM) i7-4800MQ CPU @ 2.70GHz (family: 0x6, model: 0x3c, stepping: 0x3)
+Nov  2 18:48:33.181346 xenconsoled: sfsafs-dm (6): [    0.020000] Performance Events: no PMU driver, software events only.
+Nov  2 18:48:33.181581 xenconsoled: sfsafs-dm (6): [    0.020000] Switched APIC routing from noop to Xen PV.
+Nov  2 18:48:33.181589 xenconsoled: sfsafs-dm (6): [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.181607 xenconsoled: sfsafs-dm (6): [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.181611 xenconsoled: sfsafs-dm (6): [    0.020000] register: 80, value: 0
+Nov  2 18:48:33.181615 xenconsoled: sfsafs-dm (6): [    0.020000] Modules linked in:
+Nov  2 18:48:33.181619 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.181623 xenconsoled: sfsafs-dm (6): [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 000000ff 00000000 00000001
+Nov  2 18:48:33.181646 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.181650 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000080 00000000 c888ff6c
+Nov  2 18:48:33.181654 xenconsoled: sfsafs-dm (6): [    0.020000] Call Trace:
+Nov  2 18:48:33.181658 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.181674 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.181678 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.181682 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.181685 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c10267d4>] setup_local_APIC+0x104/0x3a0
+Nov  2 18:48:33.181689 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c10cd1e9>] ? printk+0x11/0x13
+Nov  2 18:48:33.181711 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.181715 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.181719 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.181723 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.181727 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.181731 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.181745 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.181749 xenconsoled: sfsafs-dm (6): [    0.020000] ---[ end trace 5f6bd9c456bdce46 ]---
+Nov  2 18:48:33.181753 xenconsoled: sfsafs-dm (6): [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.181757 xenconsoled: sfsafs-dm (6): [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.181761 xenconsoled: sfsafs-dm (6): [    0.020000] register: f0, value: 1ff
+Nov  2 18:48:33.181765 xenconsoled: sfsafs-dm (6): [    0.020000] Modules linked in:
+Nov  2 18:48:33.181786 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.181790 xenconsoled: sfsafs-dm (6): [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 ffffffff 00000000 00000001
+Nov  2 18:48:33.181793 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.181809 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 000000f0 000001ff c888ff6c
+Nov  2 18:48:33.181813 xenconsoled: sfsafs-dm (6): [    0.020000] Call Trace:
+Nov  2 18:48:33.181816 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.181820 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.181824 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.181845 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.181849 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c10268ae>] setup_local_APIC+0x1de/0x3a0
+Nov  2 18:48:33.181853 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.181856 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.181860 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.181864 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.181868 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.181882 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.181886 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.181890 xenconsoled: sfsafs-dm (6): [    0.020000] ---[ end trace 5f6bd9c456bdce47 ]---
+Nov  2 18:48:33.181894 xenconsoled: sfsafs-dm (6): [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.181898 xenconsoled: sfsafs-dm (6): [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.181912 xenconsoled: sfsafs-dm (6): [    0.020000] register: 350, value: 700
+Nov  2 18:48:33.181936 xenconsoled: sfsafs-dm (6): [    0.020000] Modules linked in:
+Nov  2 18:48:33.181940 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.181944 xenconsoled: sfsafs-dm (6): [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 00010400 00000000 00000000
+Nov  2 18:48:33.181948 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.181951 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000350 00000700 c888ff6c
+Nov  2 18:48:33.181965 xenconsoled: sfsafs-dm (6): [    0.020000] Call Trace:
+Nov  2 18:48:33.181979 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.181995 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.182007 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.182022 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.182038 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c10269a5>] setup_local_APIC+0x2d5/0x3a0
+Nov  2 18:48:33.182051 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.182065 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.182081 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.182096 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.182110 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.182126 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.182143 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.182169 xenconsoled: sfsafs-dm (6): [    0.020000] ---[ end trace 5f6bd9c456bdce48 ]---
+Nov  2 18:48:33.182173 xenconsoled: sfsafs-dm (6): [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.182177 xenconsoled: sfsafs-dm (6): [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.182181 xenconsoled: sfsafs-dm (6): [    0.020000] register: 360, value: 8400
+Nov  2 18:48:33.182197 xenconsoled: sfsafs-dm (6): [    0.020000] Modules linked in:
+Nov  2 18:48:33.182212 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.182227 xenconsoled: sfsafs-dm (6): [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 00008400 00000000 00000000
+Nov  2 18:48:33.182241 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.182258 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000360 00008400 c888ff6c
+Nov  2 18:48:33.182288 xenconsoled: sfsafs-dm (6): [    0.020000] Call Trace:
+Nov  2 18:48:33.182302 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.182318 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.182333 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.182352 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.182366 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c10269dc>] setup_local_APIC+0x30c/0x3a0
+Nov  2 18:48:33.182381 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.182396 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.182409 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.182423 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.182438 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.182452 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.182464 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.182478 xenconsoled: sfsafs-dm (6): [    0.020000] ---[ end trace 5f6bd9c456bdce49 ]---
+Nov  2 18:48:33.182494 xenconsoled: sfsafs-dm (6): [    0.020000] No ESR for 82489DX.
+Nov  2 18:48:33.182508 xenconsoled: sfsafs-dm (6): [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.182520 xenconsoled: sfsafs-dm (6): [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.182535 xenconsoled: sfsafs-dm (6): [    0.020000] register: 320, value: 100ef
+Nov  2 18:48:33.182550 xenconsoled: sfsafs-dm (6): [    0.020000] Modules linked in:
+Nov  2 18:48:33.182567 xenconsoled: sfsafs-dm (6): [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.182571 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff0c c11a4009 c888ff24 c103a90d 00000052 00000000 00000000 c14cf260
+Nov  2 18:48:33.182575 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff44 c103a963 00000009 00000000 c888ff38 c13aaa91 c888ff58 29a7c263
+Nov  2 18:48:33.182578 xenconsoled: sfsafs-dm (6): [    0.020000]  c888ff60 c100ee8d c13a48c0 00000052 c13aaa91 00000320 000100ef c888ff6c
+Nov  2 18:48:33.182606 xenconsoled: sfsafs-dm (6): [    0.020000] Call Trace:
+Nov  2 18:48:33.182620 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.182634 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.182647 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.182662 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.182676 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c102595d>] end_local_APIC_setup+0x9d/0x140
+Nov  2 18:48:33.182681 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486779>] apic_bsp_setup+0x7a/0x91
+Nov  2 18:48:33.182695 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.182708 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.182722 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.182735 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.182739 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.182753 xenconsoled: sfsafs-dm (6): [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.182766 xenconsoled: sfsafs-dm (6): [    0.020000] ---[ end trace 5f6bd9c456bdce4a ]---
+Nov  2 18:48:33.182779 xenconsoled: sfsafs-dm (6): [    0.020000] devtmpfs: initialized
+Nov  2 18:48:33.182792 xenconsoled: sfsafs-dm (6): [    0.020000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov  2 18:48:33.182805 xenconsoled: sfsafs-dm (6): [    0.020000] futex hash table entries: 256 (order: -1, 3072 bytes)
+Nov  2 18:48:33.182818 xenconsoled: sfsafs-dm (6): [    0.020000] NET: Registered protocol family 16
+Nov  2 18:48:33.182831 xenconsoled: sfsafs-dm (6): [    0.020000] xen:grant_table: Grant tables using version 1 layout
+Nov  2 18:48:33.182844 xenconsoled: sfsafs-dm (6): [    0.020000] Grant table initialized
+Nov  2 18:48:33.183427 xenconsoled: sfsafs-dm (6): [    0.020000] PCI: setting up Xen PCI frontend stub
+Nov  2 18:48:33.183627 xenconsoled: sfsafs-dm (6): [    0.020000] xen:balloon: Initialising balloon driver
+Nov  2 18:48:33.184181 xenconsoled: sfsafs-dm (6): [    0.020000] PCI: System does not support PCI
+Nov  2 18:48:33.184188 xenconsoled: sfsafs-dm (6): [    0.020000] PCI: System does not support PCI
+Nov  2 18:48:33.184226 xenconsoled: sfsafs-dm (6): [    0.020000] clocksource: Switched to clocksource xen
+Nov  2 18:48:33.186802 xenconsoled: sfsafs-dm (6): [    0.020000] NET: Registered protocol family 2
+Nov  2 18:48:33.186868 xenconsoled: sfsafs-dm (6): [    0.020000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  2 18:48:33.186884 xenconsoled: sfsafs-dm (6): [    0.020000] TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  2 18:48:33.186888 xenconsoled: sfsafs-dm (6): [    0.020000] TCP: Hash tables configured (established 2048 bind 2048)
+Nov  2 18:48:33.186902 xenconsoled: sfsafs-dm (6): [    0.020000] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Nov  2 18:48:33.186912 xenconsoled: sfsafs-dm (6): [    0.020000] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Nov  2 18:48:33.186927 xenconsoled: sfsafs-dm (6): [    0.020000] NET: Registered protocol family 1
+Nov  2 18:48:33.186941 xenconsoled: sfsafs-dm (6): [    0.020000] Trying to unpack rootfs image as initramfs...
+Nov  2 18:48:33.193938 xenconsoled: sfsafs-dm (6): [    0.020000] Freeing initrd memory: 19412K (c1800000 - c2af5000)
+Nov  2 18:48:33.194182 xenconsoled: sfsafs-dm (6): [    0.020000] audit: initializing netlink subsys (disabled)
+Nov  2 18:48:33.194189 xenconsoled: sfsafs-dm (6): [    0.020000] audit: type=2000 audit(1509648513.095:1): initialized
+Nov  2 18:48:33.194262 xenconsoled: sfsafs-dm (6): [    0.020023] workingset: timestamp_bits=30 max_order=16 bucket_order=0
+Nov  2 18:48:33.194440 xenconsoled: sfsafs-dm (6): [    0.020197] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Nov  2 18:48:33.194447 xenconsoled: sfsafs-dm (6): [    0.020216] io scheduler noop registered
+Nov  2 18:48:33.194451 xenconsoled: sfsafs-dm (6): [    0.020220] io scheduler deadline registered
+Nov  2 18:48:33.194465 xenconsoled: sfsafs-dm (6): [    0.020226] io scheduler cfq registered (default)
+Nov  2 18:48:33.194517 xenconsoled: sfsafs-dm (6): [    0.020281] xen:xen_evtchn: Event-channel device installed
+Nov  2 18:48:33.195802 xenconsoled: sfsafs-dm (6): [    0.021560] brd: module loaded
+Nov  2 18:48:33.196276 xenconsoled: sfsafs-dm (6): [    0.021835] loop: module loaded
+Nov  2 18:48:33.196283 xenconsoled: sfsafs-dm (6): [    0.021835] Invalid max_queues (4), will use default max: 1.
+Nov  2 18:48:33.196803 xenconsoled: sfsafs-dm (6): [    0.021835] tun: Universal TUN/TAP device driver, 1.6
+Nov  2 18:48:33.196823 xenconsoled: sfsafs-dm (6): [    0.021835] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Nov  2 18:48:33.196847 xenconsoled: sfsafs-dm (6): [    0.021835] xen_netfront: Initialising Xen virtual ethernet driver
+Nov  2 18:48:33.197875 xenconsoled: sfsafs-dm (6): [    0.021835] random: fast init done
+Nov  2 18:48:33.199682 kernel:[  463.147098] xen-blkback: backend/vbd/6/5632: using 1 queues, protocol 1 (x86_32-abi) persistent grants
+Nov  2 18:48:33.199690 kernel:[  463.148743] xen-blkback: backend/vbd/6/768: using 1 queues, protocol 1 (x86_32-abi) persistent grants
+Nov  2 18:48:33.199787 xenconsoled: sfsafs-dm (6): [    0.021835] NET: Registered protocol family 17
+Nov  2 18:48:33.199826 xenconsoled: sfsafs-dm (6): [    0.021835] Using IPI Shortcut mode
+Nov  2 18:48:33.199924 xenconsoled: sfsafs-dm (6): [    0.021835] blkfront: xvdc: barrier or flush: disabled; persistent grants: enabled; indirect descriptors: enabled;
+Nov  2 18:48:33.203349 xenconsoled: sfsafs-dm (6): [    0.021835] blkfront: xvda: barrier or flush: disabled; persistent grants: enabled; indirect descriptors: enabled;
+Nov  2 18:48:33.205805 xenconsoled: Network (1): [  448.842426] vif vif-6-0 vif6.0: Guest Rx ready
+Nov  2 18:48:33.210607 xenconsoled: Network (1): [  448.847241] vif vif-6-1 vif6.1: Guest Rx ready
+Nov  2 18:48:33.213447 xenconsoled: Network (1): kernel: [  448.842426] vif vif-6-0 vif6.0: Guest Rx ready
+Nov  2 18:48:33.213455 xenconsoled: Network (1): kernel: [  448.847241] vif vif-6-1 vif6.1: Guest Rx ready
+Nov  2 18:48:33.218602 rpc-proxy: incoming connection from domain 1, port 0xac21a239, fd is 10
+Nov  2 18:48:33.218829 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.218964 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.218983 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.219277 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.219301 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.219582 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.220670 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.221678 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.222385 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.223268 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.225816 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.225831 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.225887 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.225901 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.226737 xenconsoled: Network (1): network-slave: Joining vif6.1 to brwireless
+Nov  2 18:48:33.233592 xenconsoled: Network (1): [  448.870206] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:33.233610 xenconsoled: Network (1): [  448.870224] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.233638 xenconsoled: Network (1): [  448.870275] device vif6.1 entered promiscuous mode
+Nov  2 18:48:33.238154 xenconsoled: Network (1): network-slave: Move vif vif6.1 to brwireless network successful
+Nov  2 18:48:33.238171 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared tap6.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:33.238186 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap6.1
+Nov  2 18:48:33.243463 xenconsoled: Network (1): kernel: [  448.870206] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:33.243470 xenconsoled: Network (1): kernel: [  448.870224] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.243484 xenconsoled: Network (1): kernel: [  448.870275] device vif6.1 entered promiscuous mode
+Nov  2 18:48:33.259055 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged vif6.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:33.266821 rpc-proxy: incoming connection from domain 1, port 0xd06173c2, fd is 10
+Nov  2 18:48:33.267127 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.267360 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.267389 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.267772 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.267791 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.268099 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.269331 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.270318 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.271003 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.271864 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.274346 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.274359 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.274404 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.274414 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.283268 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_OUT
+Nov  2 18:48:33.286781 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.0_OUT
+Nov  2 18:48:33.290308 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_IN
+Nov  2 18:48:33.293965 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.0_IN
+Nov  2 18:48:33.297462 xenconsoled: Network (1): network-slave: Configure vif6.0 before joining it to brbridged
+Nov  2 18:48:33.304306 xenconsoled: sfsafs-dm (6): [    0.130039] xenbus_probe_frontend: Device with no driver: device/vfb/0
+Nov  2 18:48:33.304314 xenconsoled: sfsafs-dm (6): [    0.130059] xenbus_probe_frontend: Device with no driver: device/vkbd/0
+Nov  2 18:48:33.304507 xenconsoled: sfsafs-dm (6): [    0.130254] Freeing unused kernel memory: 300K (c1477000 - c14c2000)
+Nov  2 18:48:33.305486 xenconsoled: sfsafs-dm (6): [    0.131233] Write protecting the kernel text: 2896k
+Nov  2 18:48:33.305943 xenconsoled: sfsafs-dm (6): [    0.131690] Write protecting the kernel read-only data: 1308k
+Nov  2 18:48:33.305950 xenconsoled: sfsafs-dm (6): [    0.131706] NX-protecting the kernel data: 3248k
+Nov  2 18:48:33.311519 xenconsoled: sfsafs-dm (6): [    0.137263] v4v: loading out-of-tree module taints kernel.
+Nov  2 18:48:33.311778 xenconsoled: sfsafs-dm (6): [    0.137534] Xen V4V device installed.
+Nov  2 18:48:33.319610 rpc-proxy: incoming connection from domain 1, port 0xe6b5db03, fd is 10
+Nov  2 18:48:33.319945 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.320139 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.320155 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.320570 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.320589 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.320877 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.322213 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.323346 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.324129 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.325098 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.327731 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.327744 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.327797 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.327809 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.328762 xenconsoled: Network (1): network-slave: -N FORWARD_vif6.0_IN
+Nov  2 18:48:33.332557 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_IN
+Nov  2 18:48:33.336145 xenconsoled: Network (1): network-slave: -N FORWARD_vif6.0_OUT
+Nov  2 18:48:33.340298 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_OUT
+Nov  2 18:48:33.345873 xenconsoled: Network (1): network-slave: iptables  -I FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif6.0 -j FORWARD_vif6.0_IN
+Nov  2 18:48:33.350051 xenconsoled: Network (1): network-slave: iptables  -I FORWARD -i brbridged -m physdev --physdev-in vif6.0 -j FORWARD_vif6.0_OUT
+Nov  2 18:48:33.359455 rpc-proxy: incoming connection from domain 1, port 0x90495d2c, fd is 10
+Nov  2 18:48:33.359780 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.359946 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.359964 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.360310 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.360337 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.360634 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.361792 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.362764 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.363530 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.364545 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.364774 xenconsoled: sfsafs-dm (6): No agent specified. Starting qemu directly.
+Nov  2 18:48:33.367177 xenconsoled: sfsafs-dm (6): Invoking qemu with QEMU_CMDLINE = -xen-domid 5 -qmp v4v -device xenmou -xen-acpi-pm -nodefaults -no-user-config -name qemu-5.0 -display surfman -device VGA,vgamem_mb=16 -boot cd -soundhw ac97 -smp 2,maxcpus=2 -device e1000,id=vif0,netdev=net0,mac=b2:bc:c5:3c:91:ee -netdev type=tap,id=net0,ifname=vif5.0-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -device e1000,id=vwif1,netdev=net1,mac=32:ee:c6:62:94:34 -netdev type=tap,id=net1,ifname=vif5.1-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -machine xenfv,max-ram-below-4g=4026531840 -m 2032 -drive if=ide,index=2,readonly=on,media=cdrom,id=ide-5632,file=/dev/xvdc,format=file -drive file=/dev/xvda,if=ide,index=0,media=disk,format=raw,cache=writeback -drive file=atapi-pt-v4v:/dev/bsg/1:0:0:0,if=atapi-pt,media=cdrom,format=atapi-pt-fmt
+Nov  2 18:48:33.367186 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.367198 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.367278 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.367291 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.367939 xenconsoled: Network (1): network-slave: Joining vif6.0 to brbridged
+Nov  2 18:48:33.375598 xenconsoled: sfsafs-dm (6): config qemu network with xen bridge for  vif5.0-emu
+Nov  2 18:48:33.375676 xenconsoled: sfsafs-dm (6): creating bridge stubdombr0
+Nov  2 18:48:33.376189 xenconsoled: Network (1): [  449.012813] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.376198 xenconsoled: Network (1): [  449.012823] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.376229 xenconsoled: Network (1): [  449.012871] device vif6.0 entered promiscuous mode
+Nov  2 18:48:33.380000 xenconsoled: Network (1): [  449.016621] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.380020 xenconsoled: Network (1): [  449.016630] brbridged: port 3(vif6.0) entered forwarding state
+Nov  2 18:48:33.380585 xenconsoled: Network (1): network-slave: Move vif vif6.0 to brbridged network successful
+Nov  2 18:48:33.380606 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged tap6.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:33.380612 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap6.0
+Nov  2 18:48:33.383480 xenconsoled: Network (1): kernel: [  449.012813] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.383490 xenconsoled: Network (1): kernel: [  449.012823] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.383497 xenconsoled: Network (1): kernel: [  449.012871] device vif6.0 entered promiscuous mode
+Nov  2 18:48:33.383502 xenconsoled: Network (1): kernel: [  449.016621] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.383508 xenconsoled: Network (1): kernel: [  449.016630] brbridged: port 3(vif6.0) entered forwarding state
+Nov  2 18:48:33.384562 xenconsoled: sfsafs-dm (6): Adding eth0 and vif5.0-emu to stubdombr0
+Nov  2 18:48:33.385638 xenconsoled: sfsafs-dm (6): [    0.211395] stubdombr0: port 1(eth0) entered blocking state
+Nov  2 18:48:33.385648 xenconsoled: sfsafs-dm (6): [    0.211405] stubdombr0: port 1(eth0) entered disabled state
+Nov  2 18:48:33.385888 xenconsoled: sfsafs-dm (6): [    0.211639] device eth0 entered promiscuous mode
+Nov  2 18:48:33.388327 xenconsoled: sfsafs-dm (6): [    0.214073] stubdombr0: port 2(vif5.0-emu) entered blocking state
+Nov  2 18:48:33.388338 xenconsoled: sfsafs-dm (6): [    0.214084] stubdombr0: port 2(vif5.0-emu) entered disabled state
+Nov  2 18:48:33.388355 xenconsoled: sfsafs-dm (6): [    0.214118] device vif5.0-emu entered promiscuous mode
+Nov  2 18:48:33.390908 xenconsoled: sfsafs-dm (6): [    0.216665] stubdombr0: port 2(vif5.0-emu) entered blocking state
+Nov  2 18:48:33.390916 xenconsoled: sfsafs-dm (6): [    0.216676] stubdombr0: port 2(vif5.0-emu) entered forwarding state
+Nov  2 18:48:33.390931 xenconsoled: sfsafs-dm (6): [    0.216688] stubdombr0: port 1(eth0) entered blocking state
+Nov  2 18:48:33.390935 xenconsoled: sfsafs-dm (6): [    0.216697] stubdombr0: port 1(eth0) entered forwarding state
+Nov  2 18:48:33.393962 xenconsoled: sfsafs-dm (6): config qemu network with xen bridge for  vif5.1-emu
+Nov  2 18:48:33.394034 xenconsoled: sfsafs-dm (6): creating bridge stubdombr1
+Nov  2 18:48:33.399051 xenconsoled: sfsafs-dm (6): rsyslogd: [origin software="rsyslogd" swVersion="7.6.1" x-pid="68" x-info="http://www.rsyslog.com"] start
+Nov  2 18:48:33.399072 xenconsoled: sfsafs-dm (6): rsyslogd-3003: ID for user 'root' could not be found or error [try http://www.rsyslog.com/e/3003 ]
+Nov  2 18:48:33.399078 xenconsoled: sfsafs-dm (6): rsyslogd-3003: Query for group 'root' resulted in an error: No such file or directory  [try http://www.rsyslog.com/e/3003 ]
+Nov  2 18:48:33.399192 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Reserving virtual address space above 0xf5800000 (rounded to 0xf5800000)
+Nov  2 18:48:33.399211 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Linux version 4.9.40 (build@openxt2-oe) (gcc version 5.2.0 (GCC) ) #1 Mon Oct 23 22:18:29 EDT 2017
+Nov  2 18:48:33.399216 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] KERNEL supported cpus:
+Nov  2 18:48:33.399222 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] CPU: vendor_id 'GenuineIntel' unknown, using generic init.
+Nov  2 18:48:33.399244 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] CPU: Your system may be unstable.
+Nov  2 18:48:33.399263 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Nov  2 18:48:33.399278 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Nov  2 18:48:33.399284 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Nov  2 18:48:33.399289 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Nov  2 18:48:33.399295 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Nov  2 18:48:33.399301 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/fpu: Using 'eager' FPU context switches.
+Nov  2 18:48:33.399306 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Released 0 page(s)
+Nov  2 18:48:33.399312 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Nov  2 18:48:33.399317 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Xen: [mem 0x0000000000000000-0x000000000009ffff] usable
+Nov  2 18:48:33.399322 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Xen: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+Nov  2 18:48:33.399328 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Xen: [mem 0x0000000000100000-0x0000000008ffefff] usable
+Nov  2 18:48:33.399338 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] NX (Execute Disable) protection: active
+Nov  2 18:48:33.399362 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Hypervisor detected: Xen
+Nov  2 18:48:33.399368 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Nov  2 18:48:33.399373 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Nov  2 18:48:33.399379 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] e820: last_pfn = 0x8fff max_arch_pfn = 0x1000000
+Nov  2 18:48:33.399384 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] MTRR: Disabled
+Nov  2 18:48:33.399390 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Nov  2 18:48:33.399395 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WC  WP  UC  UC  
+Nov  2 18:48:33.399401 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x01ffefff]
+Nov  2 18:48:33.399412 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Base memory trampoline at [c009c000] 9c000 size 16384
+Nov  2 18:48:33.399417 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x0150c000, 0x0150cfff] PGTABLE
+Nov  2 18:48:33.399422 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x0150d000, 0x0150dfff] PGTABLE
+Nov  2 18:48:33.399428 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x0150e000, 0x0150efff] PGTABLE
+Nov  2 18:48:33.399433 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x0150f000, 0x0150ffff] PGTABLE
+Nov  2 18:48:33.399439 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] RAMDISK: [mem 0x01800000-0x02af4fff]
+Nov  2 18:48:33.399444 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] 0MB HIGHMEM available.
+Nov  2 18:48:33.399449 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] 143MB LOWMEM available.
+Nov  2 18:48:33.399455 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   mapped low ram: 0 - 08fff000
+Nov  2 18:48:33.399460 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   low ram: 0 - 08fff000
+Nov  2 18:48:33.399471 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Zone ranges:
+Nov  2 18:48:33.399476 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Nov  2 18:48:33.399486 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   Normal   [mem 0x0000000001000000-0x0000000008ffefff]
+Nov  2 18:48:33.399496 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   HighMem  empty
+Nov  2 18:48:33.399501 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Movable zone start for each node
+Nov  2 18:48:33.399507 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Early memory node ranges
+Nov  2 18:48:33.399512 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Nov  2 18:48:33.399517 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x0000000008ffefff]
+Nov  2 18:48:33.399528 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x0000000008ffefff]
+Nov  2 18:48:33.399533 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] On node 0 totalpages: 36766
+Nov  2 18:48:33.399538 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] free_area_init_node: node 0, pgdat c146af60, node_mem_map c8caa020
+Nov  2 18:48:33.399543 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov  2 18:48:33.399572 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov  2 18:48:33.399581 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   DMA zone: 3999 pages, LIFO batch:0
+Nov  2 18:48:33.399586 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Nov  2 18:48:33.399591 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]   Normal zone: 32767 pages, LIFO batch:7
+Nov  2 18:48:33.399596 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] p2m virtual area at c9800000, size is 400000
+Nov  2 18:48:33.399602 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x01510000, 0x01510fff] PGTABLE
+Nov  2 18:48:33.399607 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] BRK [0x01511000, 0x01511fff] PGTABLE
+Nov  2 18:48:33.399612 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Remapped 0 page(s)
+Nov  2 18:48:33.399618 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Using APIC driver Xen PV
+Nov  2 18:48:33.399623 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] No local APIC present or hardware disabled
+Nov  2 18:48:33.399628 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] APIC: disable apic facility
+Nov  2 18:48:33.399634 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] APIC: switched to apic NOOP
+Nov  2 18:48:33.399639 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] ------------[ cut here ]------------
+Nov  2 18:48:33.399662 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] WARNING: CPU: 0 PID: 0 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/kernel/apic/apic_noop.c:102 noop_apic_read+0x39/0x40
+Nov  2 18:48:33.399667 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Modules linked in:
+Nov  2 18:48:33.399673 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] CPU: 0 PID: 0 Comm: swapper Not tainted 4.9.40 #1
+Nov  2 18:48:33.399678 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  c141df24 c11a4009 c141df3c c103a90d 00000066 00000000 c2af5000 00000000
+Nov  2 18:48:33.399684 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  c141df50 c103a9e1 00000009 00000000 00000000 c141df58 c1027269 c141df60
+Nov  2 18:48:33.399689 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  c14866b0 c141df9c c147f60a c141dfec a759a65e 0000012f c141df94 02af5000
+Nov  2 18:48:33.399694 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Call Trace:
+Nov  2 18:48:33.399700 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.399705 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.399710 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c103a9e1>] warn_slowpath_null+0x11/0x20
+Nov  2 18:48:33.399715 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c1027269>] noop_apic_read+0x39/0x40
+Nov  2 18:48:33.399721 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c14866b0>] init_apic_mappings+0xda/0x129
+Nov  2 18:48:33.399738 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c147f60a>] setup_arch+0x97e/0x9b6
+Nov  2 18:48:33.399755 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c14778aa>] start_kernel+0x94/0x3a2
+Nov  2 18:48:33.399761 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c14772f7>] i386_start_kernel+0x9b/0x9f
+Nov  2 18:48:33.399767 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]  [<c147ac19>] xen_start_kernel+0x486/0x48e
+Nov  2 18:48:33.399772 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] ---[ end trace 5f6bd9c456bdce45 ]---
+Nov  2 18:48:33.399796 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] e820: [mem 0x08fff000-0xffffffff] available for PCI devices
+Nov  2 18:48:33.399801 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Booting paravirtualized kernel on Xen
+Nov  2 18:48:33.399807 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Xen version: 4.9.0-xc (preserve-AD)
+Nov  2 18:48:33.399812 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov  2 18:48:33.399818 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Nov  2 18:48:33.399823 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] pcpu-alloc: [0] 0 
+Nov  2 18:48:33.399840 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 36478
+Nov  2 18:48:33.399848 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Kernel command line:  openxt_qemu_args="-xen-domid 5 -qmp v4v -device xenmou -xen-acpi-pm -nodefaults -no-user-config -name qemu-5.0 -display surfman -device VGA,vgamem_mb=16 -boot cd -soundhw ac97 -smp 2,maxcpus=2 -device e1000,id=vif0,netdev=net0,mac=b2:bc:c5:3c:91:ee -netdev type=tap,id=net0,ifname=vif5.0-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -device e1000,id=vwif1,netdev=net1,mac=32:ee:c6:62:94:34 -netdev type=tap,id=net1,ifname=vif5.1-emu,script=/etc/qemu/qemu-ifup,downscript=/etc/qemu/qemu-ifup -machine xenfv,max-ram-below-4g=4026531840 -m 2032 -drive if=ide,index=2,readonly=on,media=cdrom,id=ide-5632,file=/dev/xvdc,format=file -drive file=/dev/xvda,if=ide,index=0,media=disk,format=raw,cache=writeback -drive file=atapi-pt-v4v:/dev/bsg/1:0:0:0,if=atapi-pt,media=cdrom,format=atapi-pt-fmt"
+Nov  2 18:48:33.399854 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.399874 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov  2 18:48:33.399880 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Nov  2 18:48:33.399899 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Initializing CPU#0
+Nov  2 18:48:33.399915 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Initializing HighMem for node 0 (00000000:00000000)
+Nov  2 18:48:33.399921 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Memory: 119516K/147064K available (2892K kernel code, 360K rwdata, 1304K rodata, 300K init, 272K bss, 27548K reserved, 0K cma-reserved, 0K highmem)
+Nov  2 18:48:33.399926 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] virtual kernel memory layout:
+Nov  2 18:48:33.399950 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]     fixmap  : 0xf57a3000 - 0xf57ff000   ( 368 kB)
+Nov  2 18:48:33.399967 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]     pkmap   : 0xf5400000 - 0xf5600000   (2048 kB)
+Nov  2 18:48:33.399983 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]     vmalloc : 0xc97ff000 - 0xf53fe000   ( 699 MB)
+Nov  2 18:48:33.399999 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8fff000   ( 143 MB)
+Nov  2 18:48:33.400016 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]       .init : 0xc1477000 - 0xc14c2000   ( 300 kB)
+Nov  2 18:48:33.400032 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]       .data : 0xc12d35e4 - 0xc14750c0   (1670 kB)
+Nov  2 18:48:33.400038 xenconsoled: sfsafs-dm (6): kernel: [    0.000000]       .text : 0xc1000000 - 0xc12d35e4   (2893 kB)
+Nov  2 18:48:33.400044 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Using NULL legacy PIC
+Nov  2 18:48:33.400059 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] NR_IRQS:2304 nr_irqs:32 0
+Nov  2 18:48:33.400075 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] xen:events: Using FIFO-based ABI
+Nov  2 18:48:33.400081 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] CPU 0 irqstacks, hard=c8828000 soft=c882a000
+Nov  2 18:48:33.400086 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] console [hvc0] enabled
+Nov  2 18:48:33.400092 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] clocksource: xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Nov  2 18:48:33.400112 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] Xen: using vcpuop timer interface
+Nov  2 18:48:33.400117 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] installing Xen timer for CPU 0
+Nov  2 18:48:33.400133 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] tsc: Fast TSC calibration failed
+Nov  2 18:48:33.400149 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] tsc: Unable to calibrate against PIT
+Nov  2 18:48:33.400160 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] tsc: No reference (HPET/PMTIMER) available
+Nov  2 18:48:33.400165 xenconsoled: sfsafs-dm (6): kernel: [    0.000000] tsc: Detected 2693.784 MHz processor
+Nov  2 18:48:33.400175 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Calibrating delay loop (skipped), value calculated using timer frequency.. 5387.56 BogoMIPS (lpj=26937840)
+Nov  2 18:48:33.400181 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] pid_max: default: 32768 minimum: 301
+Nov  2 18:48:33.400186 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.400202 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Nov  2 18:48:33.400218 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Nov  2 18:48:33.400225 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Nov  2 18:48:33.400230 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: GenuineIntel Intel(R) Core(TM) i7-4800MQ CPU @ 2.70GHz (family: 0x6, model: 0x3c, stepping: 0x3)
+Nov  2 18:48:33.400236 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Performance Events: no PMU driver, software events only.
+Nov  2 18:48:33.400241 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Switched APIC routing from noop to Xen PV.
+Nov  2 18:48:33.400259 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.400284 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400289 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] register: 80, value: 0
+Nov  2 18:48:33.400295 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Modules linked in:
+Nov  2 18:48:33.400301 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.400306 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 000000ff 00000000 00000001
+Nov  2 18:48:33.400312 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.400317 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000080 00000000 c888ff6c
+Nov  2 18:48:33.400322 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Call Trace:
+Nov  2 18:48:33.400327 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.400345 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.400351 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.400356 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400375 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c10267d4>] setup_local_APIC+0x104/0x3a0
+Nov  2 18:48:33.400381 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c10cd1e9>] ? printk+0x11/0x13
+Nov  2 18:48:33.400386 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.400396 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.400402 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.400417 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.400434 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.400440 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.400445 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.400465 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ---[ end trace 5f6bd9c456bdce46 ]---
+Nov  2 18:48:33.400471 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.400476 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400482 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] register: f0, value: 1ff
+Nov  2 18:48:33.400487 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Modules linked in:
+Nov  2 18:48:33.400492 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.400516 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 ffffffff 00000000 00000001
+Nov  2 18:48:33.400522 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.400527 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 000000f0 000001ff c888ff6c
+Nov  2 18:48:33.400533 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Call Trace:
+Nov  2 18:48:33.400550 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.400561 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.400567 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.400572 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400577 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c10268ae>] setup_local_APIC+0x1de/0x3a0
+Nov  2 18:48:33.400599 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.400605 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.400610 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.400615 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.400620 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.400626 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.400631 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.400636 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ---[ end trace 5f6bd9c456bdce47 ]---
+Nov  2 18:48:33.400642 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.400647 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400652 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] register: 350, value: 700
+Nov  2 18:48:33.400657 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Modules linked in:
+Nov  2 18:48:33.400663 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.400668 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 00010400 00000000 00000000
+Nov  2 18:48:33.400673 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.400679 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000350 00000700 c888ff6c
+Nov  2 18:48:33.400684 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Call Trace:
+Nov  2 18:48:33.400689 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.400695 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.400705 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.400722 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared vif6.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:33.400745 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400750 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c10269a5>] setup_local_APIC+0x2d5/0x3a0
+Nov  2 18:48:33.400756 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.400761 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.400766 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.400772 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.400777 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.400782 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.400788 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.400793 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ---[ end trace 5f6bd9c456bdce48 ]---
+Nov  2 18:48:33.400799 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.400804 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400810 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] register: 360, value: 8400
+Nov  2 18:48:33.400815 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Modules linked in:
+Nov  2 18:48:33.400820 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.400826 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888fee8 c11a4009 c888ff00 c103a90d 00000052 00008400 00000000 00000000
+Nov  2 18:48:33.400831 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff20 c103a963 00000009 00000000 c888ff14 c13aaa91 c888ff34 29a7c263
+Nov  2 18:48:33.400837 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff3c c100ee8d c13a48c0 00000052 c13aaa91 00000360 00008400 c888ff6c
+Nov  2 18:48:33.400842 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Call Trace:
+Nov  2 18:48:33.400847 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.400852 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.400857 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.400863 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400868 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c10269dc>] setup_local_APIC+0x30c/0x3a0
+Nov  2 18:48:33.400873 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c148675f>] apic_bsp_setup+0x60/0x91
+Nov  2 18:48:33.400878 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.400883 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.400889 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.400894 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.400899 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.400931 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.400936 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ---[ end trace 5f6bd9c456bdce49 ]---
+Nov  2 18:48:33.400941 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] No ESR for 82489DX.
+Nov  2 18:48:33.400947 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ------------[ cut here ]------------
+Nov  2 18:48:33.400952 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] WARNING: CPU: 0 PID: 1 at /home/build/1221/openxt/build/tmp-glibc/work-shared/xenclient-stubdomain/kernel-source/arch/x86/xen/apic.c:82 xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.400958 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] register: 320, value: 100ef
+Nov  2 18:48:33.400963 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Modules linked in:
+Nov  2 18:48:33.400969 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] CPU: 0 PID: 1 Comm: swapper Tainted: G        W       4.9.40 #1
+Nov  2 18:48:33.400974 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff0c c11a4009 c888ff24 c103a90d 00000052 00000000 00000000 c14cf260
+Nov  2 18:48:33.400980 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff44 c103a963 00000009 00000000 c888ff38 c13aaa91 c888ff58 29a7c263
+Nov  2 18:48:33.400985 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  c888ff60 c100ee8d c13a48c0 00000052 c13aaa91 00000320 000100ef c888ff6c
+Nov  2 18:48:33.400990 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Call Trace:
+Nov  2 18:48:33.400996 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c11a4009>] dump_stack+0x16/0x1d
+Nov  2 18:48:33.401001 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a90d>] __warn+0xad/0xd0
+Nov  2 18:48:33.401006 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c103a963>] warn_slowpath_fmt+0x33/0x50
+Nov  2 18:48:33.401011 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c100ee8d>] xen_apic_write+0x1d/0x30
+Nov  2 18:48:33.401016 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c102595d>] end_local_APIC_setup+0x9d/0x140
+Nov  2 18:48:33.401021 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486779>] apic_bsp_setup+0x7a/0x91
+Nov  2 18:48:33.401026 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486805>] APIC_init_uniprocessor+0x75/0x81
+Nov  2 18:48:33.401031 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1486819>] up_late_init+0x8/0xa
+Nov  2 18:48:33.401036 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c1477c0b>] kernel_init_freeable+0x53/0x157
+Nov  2 18:48:33.401041 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed0>] ? rest_init+0x60/0x60
+Nov  2 18:48:33.401046 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12cbed8>] kernel_init+0x8/0xe0
+Nov  2 18:48:33.401051 xenconsoled: sfsafs-dm (6): kernel: [    0.020000]  [<c12d1a83>] ret_from_fork+0x1b/0x28
+Nov  2 18:48:33.401056 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] ---[ end trace 5f6bd9c456bdce4a ]---
+Nov  2 18:48:33.401062 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] devtmpfs: initialized
+Nov  2 18:48:33.401067 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov  2 18:48:33.401073 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] futex hash table entries: 256 (order: -1, 3072 bytes)
+Nov  2 18:48:33.401078 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] NET: Registered protocol family 16
+Nov  2 18:48:33.401102 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] xen:grant_table: Grant tables using version 1 layout
+Nov  2 18:48:33.401108 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Grant table initialized
+Nov  2 18:48:33.401113 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] PCI: setting up Xen PCI frontend stub
+Nov  2 18:48:33.401123 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] PCI: pci_cache_line_size set to 64 bytes
+Nov  2 18:48:33.401129 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] xen:balloon: Initialising balloon driver
+Nov  2 18:48:33.401135 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] PCI: System does not support PCI
+Nov  2 18:48:33.401140 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] PCI: System does not support PCI
+Nov  2 18:48:33.401146 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] clocksource: Switched to clocksource xen
+Nov  2 18:48:33.401151 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] NET: Registered protocol family 2
+Nov  2 18:48:33.401157 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  2 18:48:33.401162 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  2 18:48:33.401167 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] TCP: Hash tables configured (established 2048 bind 2048)
+Nov  2 18:48:33.401174 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Nov  2 18:48:33.401179 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Nov  2 18:48:33.401185 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] NET: Registered protocol family 1
+Nov  2 18:48:33.401190 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] PCI: CLS 0 bytes, default 64
+Nov  2 18:48:33.401195 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Trying to unpack rootfs image as initramfs...
+Nov  2 18:48:33.401201 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] Freeing initrd memory: 19412K (c1800000 - c2af5000)
+Nov  2 18:48:33.401206 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] audit: initializing netlink subsys (disabled)
+Nov  2 18:48:33.401211 xenconsoled: sfsafs-dm (6): kernel: [    0.020000] audit: type=2000 audit(1509648513.095:1): initialized
+Nov  2 18:48:33.401217 xenconsoled: sfsafs-dm (6): kernel: [    0.020023] workingset: timestamp_bits=30 max_order=16 bucket_order=0
+Nov  2 18:48:33.401222 xenconsoled: sfsafs-dm (6): kernel: [    0.020197] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Nov  2 18:48:33.401227 xenconsoled: sfsafs-dm (6): kernel: [    0.020216] io scheduler noop registered
+Nov  2 18:48:33.401233 xenconsoled: sfsafs-dm (6): kernel: [    0.020220] io scheduler deadline registered
+Nov  2 18:48:33.401256 xenconsoled: sfsafs-dm (6): kernel: [    0.020226] io scheduler cfq registered (default)
+Nov  2 18:48:33.401261 xenconsoled: sfsafs-dm (6): kernel: [    0.020281] xen:xen_evtchn: Event-channel device installed
+Nov  2 18:48:33.401267 xenconsoled: sfsafs-dm (6): kernel: [    0.021560] brd: module loaded
+Nov  2 18:48:33.401272 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] loop: module loaded
+Nov  2 18:48:33.401277 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] Invalid max_queues (4), will use default max: 1.
+Nov  2 18:48:33.401282 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] tun: Universal TUN/TAP device driver, 1.6
+Nov  2 18:48:33.401288 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Nov  2 18:48:33.401293 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] xen_netfront: Initialising Xen virtual ethernet driver
+Nov  2 18:48:33.401299 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] random: fast init done
+Nov  2 18:48:33.401304 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] NET: Registered protocol family 17
+Nov  2 18:48:33.401310 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] Using IPI Shortcut mode
+Nov  2 18:48:33.401315 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] blkfront: xvdc: barrier or flush: disabled; persistent grants: enabled; indirect descriptors: enabled;
+Nov  2 18:48:33.401321 xenconsoled: sfsafs-dm (6): kernel: [    0.021835] blkfront: xvda: barrier or flush: disabled; persistent grants: enabled; indirect descriptors: enabled;
+Nov  2 18:48:33.401327 xenconsoled: sfsafs-dm (6): kernel: [    0.130039] xenbus_probe_frontend: Device with no driver: device/vfb/0
+Nov  2 18:48:33.401333 xenconsoled: sfsafs-dm (6): kernel: [    0.130059] xenbus_probe_frontend: Device with no driver: device/vkbd/0
+Nov  2 18:48:33.401338 xenconsoled: sfsafs-dm (6): kernel: [    0.130254] Freeing unused kernel memory: 300K (c1477000 - c14c2000)
+Nov  2 18:48:33.401344 xenconsoled: sfsafs-dm (6): kernel: [    0.131233] Write protecting the kernel text: 2896k
+Nov  2 18:48:33.401349 xenconsoled: sfsafs-dm (6): kernel: [    0.131690] Write protecting the kernel read-only data: 1308k
+Nov  2 18:48:33.401355 xenconsoled: sfsafs-dm (6): kernel: [    0.131706] NX-protecting the kernel data: 3248k
+Nov  2 18:48:33.401361 xenconsoled: sfsafs-dm (6): kernel: [    0.137263] v4v: loading out-of-tree module taints kernel.
+Nov  2 18:48:33.401366 xenconsoled: sfsafs-dm (6): kernel: [    0.137534] Xen V4V device installed.
+Nov  2 18:48:33.401372 xenconsoled: sfsafs-dm (6): kernel: [    0.211395] stubdombr0: port 1(eth0) entered blocking state
+Nov  2 18:48:33.401377 xenconsoled: sfsafs-dm (6): kernel: [    0.211405] stubdombr0: port 1(eth0) entered disabled state
+Nov  2 18:48:33.401383 xenconsoled: sfsafs-dm (6): kernel: [    0.211639] device eth0 entered promiscuous mode
+Nov  2 18:48:33.401388 xenconsoled: sfsafs-dm (6): kernel: [    0.214073] stubdombr0: port 2(vif5.0-emu) entered blocking state
+Nov  2 18:48:33.401394 xenconsoled: sfsafs-dm (6): kernel: [    0.214084] stubdombr0: port 2(vif5.0-emu) entered disabled state
+Nov  2 18:48:33.401399 xenconsoled: sfsafs-dm (6): kernel: [    0.214118] device vif5.0-emu entered promiscuous mode
+Nov  2 18:48:33.401405 xenconsoled: sfsafs-dm (6): kernel: [    0.216665] stubdombr0: port 2(vif5.0-emu) entered blocking state
+Nov  2 18:48:33.401410 xenconsoled: sfsafs-dm (6): kernel: [    0.216676] stubdombr0: port 2(vif5.0-emu) entered forwarding state
+Nov  2 18:48:33.401432 xenconsoled: sfsafs-dm (6): kernel: [    0.216688] stubdombr0: port 1(eth0) entered blocking state
+Nov  2 18:48:33.401438 xenconsoled: sfsafs-dm (6): kernel: [    0.216697] stubdombr0: port 1(eth0) entered forwarding state
+Nov  2 18:48:33.401443 xenconsoled: sfsafs-dm (6): qemu-system-i386: Opened V4V chardev
+Nov  2 18:48:33.404016 xenconsoled: Network (1): [  449.040633] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.407193 xenconsoled: sfsafs-dm (6): Adding eth1 and vif5.1-emu to stubdombr1
+Nov  2 18:48:33.408264 xenconsoled: sfsafs-dm (6): [    0.234022] stubdombr1: port 1(eth1) entered blocking state
+Nov  2 18:48:33.408273 xenconsoled: sfsafs-dm (6): [    0.234031] stubdombr1: port 1(eth1) entered disabled state
+Nov  2 18:48:33.408438 xenconsoled: sfsafs-dm (6): [    0.234194] device eth1 entered promiscuous mode
+Nov  2 18:48:33.410922 xenconsoled: sfsafs-dm (6): [    0.236673] stubdombr1: port 2(vif5.1-emu) entered blocking state
+Nov  2 18:48:33.410942 xenconsoled: sfsafs-dm (6): [    0.236683] stubdombr1: port 2(vif5.1-emu) entered disabled state
+Nov  2 18:48:33.410965 xenconsoled: sfsafs-dm (6): [    0.236735] device vif5.1-emu entered promiscuous mode
+Nov  2 18:48:33.413440 xenconsoled: Network (1): kernel: [  449.040633] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.413560 xenconsoled: sfsafs-dm (6): [    0.239323] stubdombr1: port 2(vif5.1-emu) entered blocking state
+Nov  2 18:48:33.413594 xenconsoled: sfsafs-dm (6): [    0.239333] stubdombr1: port 2(vif5.1-emu) entered forwarding state
+Nov  2 18:48:33.414510 xenconsoled: sfsafs-dm (6): kernel: [    0.234022] stubdombr1: port 1(eth1) entered blocking state
+Nov  2 18:48:33.414521 xenconsoled: sfsafs-dm (6): kernel: [    0.234031] stubdombr1: port 1(eth1) entered disabled state
+Nov  2 18:48:33.414526 xenconsoled: sfsafs-dm (6): kernel: [    0.234194] device eth1 entered promiscuous mode
+Nov  2 18:48:33.414532 xenconsoled: sfsafs-dm (6): kernel: [    0.236673] stubdombr1: port 2(vif5.1-emu) entered blocking state
+Nov  2 18:48:33.414538 xenconsoled: sfsafs-dm (6): kernel: [    0.236683] stubdombr1: port 2(vif5.1-emu) entered disabled state
+Nov  2 18:48:33.414544 xenconsoled: sfsafs-dm (6): kernel: [    0.236735] device vif5.1-emu entered promiscuous mode
+Nov  2 18:48:33.414550 xenconsoled: sfsafs-dm (6): kernel: [    0.239323] stubdombr1: port 2(vif5.1-emu) entered blocking state
+Nov  2 18:48:33.414556 xenconsoled: sfsafs-dm (6): kernel: [    0.239333] stubdombr1: port 2(vif5.1-emu) entered forwarding state
+Nov  2 18:48:33.414562 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:pt_v4v_open:1045] opening: /dev/bsg/1:0:0:0 - readonly=0
+Nov  2 18:48:33.415668 rpc-proxy: incoming connection from domain 1, port 0xc45aee13, fd is 10
+Nov  2 18:48:33.415785 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:loglevel_cb:189] loglevel change detected /dev/bsg/1:0:0:0 = 0
+Nov  2 18:48:33.415797 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:atapi_pt_device_info_init:487] autolock=0 media_state=0 lock_state=0 assigned=0
+Nov  2 18:48:33.415807 atapi_pt_helper: [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/atapi-pt-helper/0+gitAUTOINC+b695a5af21-r0/git/atapi_pt_helper/src/atapi_pt_helper.c:main:693] (stubdom-6) ATAPI_PTV4V_OPEN
+Nov  2 18:48:33.415862 atapi_pt_helper: [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/atapi-pt-helper/0+gitAUTOINC+b695a5af21-r0/git/atapi_pt_helper/src/atapi_pt_helper.c:atapi_ptv4v_open:414] (stubdom-6) opened /dev/bsg/1:0:0:0 - id = 0
+Nov  2 18:48:33.415930 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.416053 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.416068 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.416365 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.416385 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.416601 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.417997 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.418005 xenconsoled: sfsafs-dm (6): qemu-system-i386: timeoffset_init failed to read from xenstore!
+Nov  2 18:48:33.419030 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.419809 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.420932 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.423714 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.423726 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.423781 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.423792 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.424369 xenconsoled: Network (1): network-slave: -D FORWARD_brwireless -o brwireless -m physdev --physdev-is-bridged --physdev-out vif6.1 -j FORWARD_vif6.1_IN
+Nov  2 18:48:33.428995 xenconsoled: Network (1): network-slave: -D FORWARD -i brwireless -m physdev --physdev-in vif6.1 -j FORWARD_vif6.1_OUT
+Nov  2 18:48:33.432773 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.1_OUT
+Nov  2 18:48:33.436417 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.1_OUT
+Nov  2 18:48:33.440152 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.1_IN
+Nov  2 18:48:33.443955 atapi_pt_helper: [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/atapi-pt-helper/0+gitAUTOINC+b695a5af21-r0/git/atapi_pt_helper/src/atapi_pt_helper.c:main:701] (stubdom-6) ATAPI_PTV4V_SG_GET_RESERVED_SIZE
+Nov  2 18:48:33.443967 atapi_pt_helper: [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/atapi-pt-helper/0+gitAUTOINC+b695a5af21-r0/git/atapi_pt_helper/src/atapi_pt_helper.c:atapi_ptv4v_sg_get_reserved_size:536] (stubdom-6) sg get reserved size for /dev/bsg/1:0:0:0 = 131072
+Nov  2 18:48:33.444046 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.1_IN
+Nov  2 18:48:33.444071 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_worker_thread:1128] atapi pt thread worker started!
+Nov  2 18:48:33.444875 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_init:1395] initialization complete
+Nov  2 18:48:33.447830 xenconsoled: Network (1): network-slave: Configure vif6.1 before joining it to brwireless
+Nov  2 18:48:33.447944 xenconsoled: sfsafs-dm (6): qemu-system-i386: Xen ACPI PM initialized
+Nov  2 18:48:33.476891 rpc-proxy: incoming connection from domain 1, port 0xa35c0f64, fd is 10
+Nov  2 18:48:33.477228 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.477399 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.477421 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.477823 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.477854 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.478045 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.479963 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.481386 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.482460 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.483878 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.486537 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.486549 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.486599 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.486610 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.487508 xenconsoled: Network (1): network-slave: Joining vif6.1 to brwireless
+Nov  2 18:48:33.490093 xenconsoled: sfsafs-dm (6): qemu-system-i386: failed to read xenstore path (/local/domain/5/device/vif/0/disconnect).
+Nov  2 18:48:33.490134 xenconsoled: sfsafs-dm (6): qemu-system-i386: Registered xenstore watch for NIC addr: b2:bc:c5:3c:91:ee
+Nov  2 18:48:33.491013 xenconsoled: sfsafs-dm (6): qemu-system-i386: failed to read xenstore path (/local/domain/5/device/vwif/1/disconnect).
+Nov  2 18:48:33.491058 xenconsoled: sfsafs-dm (6): qemu-system-i386: Registered xenstore watch for NIC addr: 32:ee:c6:62:94:34
+Nov  2 18:48:33.491145 xenconsoled: sfsafs-dm (6): qemu-system-i386: initialize input
+Nov  2 18:48:33.491318 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/server.c:rpc_connect:58:input_server: DM connected. domid 5 device type 5
+Nov  2 18:48:33.491359 xenconsoled: sfsafs-dm (6): qemu-system-i386: surfman-ui: Initialize Surfman display.
+Nov  2 18:48:33.491487 surfman: Info: DM connected. domid 5 device type 1
+Nov  2 18:48:33.491500 surfman: Info: Creating IOEMU device 5
+Nov  2 18:48:33.491542 xenconsoled: sfsafs-dm (6): qemu-system-i386: surfman-ui: resize 0x0:0 -> 640x480:2560.
+Nov  2 18:48:33.492083 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/domains.c:switcher_domid:896:New domain 5 (slot 1)
+Nov  2 18:48:33.493384 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:autolock_cb:232] autolock change detected /dev/bsg/1:0:0:0: 0->-1
+Nov  2 18:48:33.493568 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:glob_mediastate_cb:166] media state change detected /dev/bsg/1:0:0:0 = 0
+Nov  2 18:48:33.493696 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:loglevel_cb:189] loglevel change detected /dev/bsg/1:0:0:0 = 0
+Nov  2 18:48:33.493864 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:lock_cb:206] lock change detected /dev/bsg/1:0:0:0 = -1
+Nov  2 18:48:33.493975 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:have_focus_cb:251] focus change detected /dev/bsg/1:0:0:0 = 0
+Nov  2 18:48:33.494054 xl: libxl_qmp.c:287:qmp_handle_error_response: Domain 5:received an error message from QMP server: The feature 'vnc' is not enabled
+Nov  2 18:48:33.494079 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:qmph_unix_to_v4v:114] (stubdom-6) read(unix_fd) recieved EOF, telling qemu.
+Nov  2 18:48:33.494116 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:qmph_accept_unix_socket:195] (stubdom-6) Waiting for connection on unix socket
+Nov  2 18:48:33.494251 xenconsoled: sfsafs-dm (6): qemu-system-i386: v4v_recvfrom() returned V4V_MAGIC_DISCONNECT, closing.
+Nov  2 18:48:33.494425 xenconsoled: sfsafs-dm (6): qemu-system-i386: [../hw/acpi/openxt_ext.c:openxt_wakeup_requested:62] error: could not read the wakeup request node
+Nov  2 18:48:33.494575 xenconsoled: sfsafs-dm (6): qemu-system-i386: failed to read xenstore path (/local/domain/5/device/vif/0/disconnect).
+Nov  2 18:48:33.494716 xenconsoled: sfsafs-dm (6): qemu-system-i386: failed to read xenstore path (/local/domain/5/device/vwif/1/disconnect).
+Nov  2 18:48:33.494901 xenconsoled: Network (1): [  449.131528] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:33.494911 xenconsoled: Network (1): [  449.131538] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.503477 xenconsoled: Network (1): kernel: [  449.131528] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:33.503489 xenconsoled: Network (1): kernel: [  449.131538] brwireless: port 1(vif6.1) entered disabled state
+Nov  2 18:48:33.503915 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/domains.c:domain_mouse_switch_config:1104:configuring seamless mouse for uuid=698d06e8-9c84-4420-88c9-0a1df315fea6 left=-1 right=-1
+Nov  2 18:48:33.503925 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/focus.c:focus_update_domain:104:new incumbent for slot 1, last_domid=0 new_domid=5 last_was_pvm=0, new_is_pvm=0
+Nov  2 18:48:33.504070 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:send_config:504:Making relative mouse absolute.
+Nov  2 18:48:33.504077 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:send_config:510:All rel bits removed.
+Nov  2 18:48:33.504084 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:send_config:561:Found device: AlpsPS/2 ALPS DualPoint S
+Nov  2 18:48:33.504109 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:send_config:561:Found device: AlpsPS/2 ALPS DualPoint T
+Nov  2 18:48:33.504523 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/domains.c:domain_calculate_abs_scaling:758:No desktopDimensions node for domain 5
+Nov  2 18:48:33.504744 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/domains.c:domain_active_adapter_watch:315:No active adapter node for domain 5
+Nov  2 18:48:33.512902 xenconsoled: Network (1): network-slave: Move vif vif6.1 to brwireless network successful
+Nov  2 18:48:33.512919 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared tap6.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:33.512923 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap6.1
+Nov  2 18:48:33.514701 xenmgr: vm state change 698d06e8-9c84-4420-88c9-0a1df315fea6: created
+Nov  2 18:48:33.515422 xenmgr: pre-dm setup for 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.517189 xenmgr: active vms, state = "created"
+Nov  2 18:48:33.527773 xenmgr: active vms, state = "created"
+Nov  2 18:48:33.529441 xenconsoled: Network (1): root: network-slave udev add vif5.1 notify
+Nov  2 18:48:33.535221 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:autolock_cb:232] autolock change detected /dev/bsg/1:0:0:0: -1->0
+Nov  2 18:48:33.536134 xenconsoled: Network (1): root: network-slave udev add vif5.1 notify
+Nov  2 18:48:33.536915 xenmgr: testing pv addons installation for 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.540658 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged vif6.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:33.549142 xenconsoled: Network (1): [  449.185751] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.553469 xenconsoled: Network (1): kernel: [  449.185751] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.554413 xenmgr: testing pv addons un-installation for 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.571240 xenconsoled: Network (1): network-slave: Received a udev notify for vif5.1, exists : True 
+Nov  2 18:48:33.571262 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif5.1
+Nov  2 18:48:33.571268 xenconsoled: Network (1): network-slave: backendVifNotify vif5.1 5 1
+Nov  2 18:48:33.575060 xenconsoled: Network (1): network-slave: Received a udev notify for vif5.1, exists : True 
+Nov  2 18:48:33.575081 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif5.1
+Nov  2 18:48:33.575087 xenconsoled: Network (1): network-slave: backendVifNotify vif5.1 5 1
+Nov  2 18:48:33.587202 xenconsoled: Network (1): root: network-slave udev add vif5.0 notify
+Nov  2 18:48:33.587986 xenconsoled: Network (1): root: network-slave udev add vif5.0 notify
+Nov  2 18:48:33.591303 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif5.1
+Nov  2 18:48:33.591324 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif5.1
+Nov  2 18:48:33.607645 rpc-proxy: incoming connection from domain 1, port 0xa9af487c, fd is 10
+Nov  2 18:48:33.609195 xenconsoled: Network (1): network-slave: Received a udev notify for vif5.0, exists : True 
+Nov  2 18:48:33.609204 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif5.0
+Nov  2 18:48:33.609208 xenconsoled: Network (1): network-slave: backendVifNotify vif5.0 5 0
+Nov  2 18:48:33.611493 xenconsoled: Network (1): network-slave: Received a udev notify for vif5.0, exists : True 
+Nov  2 18:48:33.611511 xenconsoled: Network (1): network-slave: Notify network daemon of a new backend vif vif5.0
+Nov  2 18:48:33.611516 xenconsoled: Network (1): network-slave: backendVifNotify vif5.0 5 0
+Nov  2 18:48:33.611656 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.611865 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.611885 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.612285 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.612312 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.612587 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.614830 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.615941 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.616074 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif5.0
+Nov  2 18:48:33.616905 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.617995 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.621012 xenconsoled: Network (1): NetworkManager: <info> Ignoring interface vif5.0
+Nov  2 18:48:33.621627 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.621641 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.621714 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.621746 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.622402 xenconsoled: Network (1): network-slave: -D FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif6.0 -j FORWARD_vif6.0_IN
+Nov  2 18:48:33.622651 xenmgr: done pre-dm setup for 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.622754 xenmgr: waitForState: i_state: created state: created
+Nov  2 18:48:33.634901 xenmgr: unpause 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.637744 xenconsoled: Network (1): network-slave: -D FORWARD -i brbridged -m physdev --physdev-in vif6.0 -j FORWARD_vif6.0_OUT
+Nov  2 18:48:33.644748 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:main:342] (stubdom-6) Accepted the connection fd: 8, telling qemu.
+Nov  2 18:48:33.644949 xenconsoled: sfsafs-dm (6): qemu-system-i386: v4v_recvfrom() returned V4V_MAGIC_CONNECT, connecting.
+Nov  2 18:48:33.645327 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:qmph_unix_to_v4v:114] (stubdom-6) read(unix_fd) recieved EOF, telling qemu.
+Nov  2 18:48:33.645365 qmp_helper: qmp-helper [/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/qmp-helper/0+gitAUTOINC+b695a5af21-r0/git/qmp_helper/src/qmp_helper.c:qmph_accept_unix_socket:195] (stubdom-6) Waiting for connection on unix socket
+Nov  2 18:48:33.645461 xenconsoled: hypervisor: (d5) HVM Loader
+Nov  2 18:48:33.645473 xenconsoled: hypervisor: (d5) Detected Xen v4.9.0-xc
+Nov  2 18:48:33.645495 xenconsoled: sfsafs-dm (6): qemu-system-i386: v4v_recvfrom() returned V4V_MAGIC_DISCONNECT, closing.
+Nov  2 18:48:33.645571 xenconsoled: hypervisor: (d5) Xenbus rings @0xfeffc000, event channel 1
+Nov  2 18:48:33.645581 xenconsoled: hypervisor: (d5) System requested SeaBIOS
+Nov  2 18:48:33.645587 xenconsoled: hypervisor: (d5) CPU speed is 2694 MHz
+Nov  2 18:48:33.645659 xenconsoled: hypervisor: (d5) Relocating guest memory for lowmem MMIO space enabled
+Nov  2 18:48:33.645861 xenconsoled: hypervisor: (d5) PCI-ISA link 0 routed to IRQ5
+Nov  2 18:48:33.645952 xenconsoled: hypervisor: (d5) PCI-ISA link 1 routed to IRQ10
+Nov  2 18:48:33.646063 xenconsoled: hypervisor: (d5) PCI-ISA link 2 routed to IRQ11
+Nov  2 18:48:33.646176 xenconsoled: hypervisor: (d5) PCI-ISA link 3 routed to IRQ5
+Nov  2 18:48:33.646809 xenmgr: vm state change 698d06e8-9c84-4420-88c9-0a1df315fea6: running
+Nov  2 18:48:33.653592 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_OUT
+Nov  2 18:48:33.653775 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.653864 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.653952 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.655393 xenconsoled: hypervisor: (d5) pci dev 01:3 INTA->IRQ10
+Nov  2 18:48:33.657540 xenconsoled: hypervisor: (d5) pci dev 02:0 INTA->IRQ11
+Nov  2 18:48:33.659918 xenconsoled: hypervisor: (d5) pci dev 03:0 INTA->IRQ5
+Nov  2 18:48:33.662259 xenconsoled: hypervisor: (d5) pci dev 04:0 INTA->IRQ5
+Nov  2 18:48:33.663065 vusb-daemon: Adding vm, domid=5, uuid=698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.664026 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.668335 xenconsoled: hypervisor: (d5) pci dev 06:0 INTA->IRQ11
+Nov  2 18:48:33.669876 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.0_OUT
+Nov  2 18:48:33.671046 xenconsoled: hypervisor: (d5) pci dev 07:0 INTA->IRQ5
+Nov  2 18:48:33.675302 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.682553 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_IN
+Nov  2 18:48:33.685625 xenconsoled: hypervisor: (d5) pci_mem_start=0xf0000000 (was 0xf0000000) for mmio_hole_size=268435456
+Nov  2 18:48:33.685637 xenconsoled: hypervisor: (d5) No RAM in high memory; setting high_mem resource base to 100000000
+Nov  2 18:48:33.685811 xenconsoled: hypervisor: (d5) pci dev 02:0 bar 14 size 001000000: 0f0000008
+Nov  2 18:48:33.687406 xenconsoled: hypervisor: (d5) pci dev 05:0 bar 10 size 001000000: 0f1000008
+Nov  2 18:48:33.695230 xenconsoled: Network (1): network-slave: -X FORWARD_vif6.0_IN
+Nov  2 18:48:33.699373 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.700182 surfman: Info: Received dbus message method_call:set_visible
+Nov  2 18:48:33.700221 surfman: Info: Chose active device: ioemugfx
+Nov  2 18:48:33.706734 xenconsoled: hypervisor: (d5) pci dev 06:0 bar 10 size 000020000: 0f2000000
+Nov  2 18:48:33.708071 xenconsoled: hypervisor: (d5) pci dev 07:0 bar 10 size 000020000: 0f2020000
+Nov  2 18:48:33.709598 xenconsoled: hypervisor: (d5) pci dev 04:0 bar 10 size 000004000: 0f2040000
+Nov  2 18:48:33.710314 xenconsoled: Network (1): network-slave: Configure vif6.0 before joining it to brbridged
+Nov  2 18:48:33.711901 xenmgr: active vms, state = "running"
+Nov  2 18:48:33.713503 xenconsoled: hypervisor: (d5) pci dev 05:0 bar 18 size 000001000: 0f2044000
+Nov  2 18:48:33.713705 xenconsoled: hypervisor: (d5) pci dev 03:0 bar 10 size 000000400: 00000c001
+Nov  2 18:48:33.715623 xenconsoled: hypervisor: (d5) pci dev 02:0 bar 10 size 000000100: 00000c401
+Nov  2 18:48:33.719578 xenconsoled: hypervisor: (d5) pci dev 03:0 bar 14 size 000000100: 00000c501
+Nov  2 18:48:33.719823 xenconsoled: hypervisor: (d5) pci dev 06:0 bar 14 size 000000040: 00000c601
+Nov  2 18:48:33.722179 xenconsoled: hypervisor: (d5) pci dev 07:0 bar 14 size 000000040: 00000c641
+Nov  2 18:48:33.723820 xenconsoled: hypervisor: (d5) pci dev 01:1 bar 20 size 000000010: 00000c681
+Nov  2 18:48:33.726743 xenconsoled: hypervisor: (d5) Multiprocessor initialisation:
+Nov  2 18:48:33.726755 xenconsoled: hypervisor: (d5)  - CPU0 ... 39-bit phys ... fixed MTRRs ... var MTRRs [1/8] ... done.
+Nov  2 18:48:33.726887 xenconsoled: hypervisor: (d5)  - CPU1 ... 39-bit phys ... fixed MTRRs ... var MTRRs [1/8] ... done.
+Nov  2 18:48:33.726895 xenconsoled: hypervisor: (d5) Writing SMBIOS tables ...
+Nov  2 18:48:33.727028 xenconsoled: hypervisor: (d5) Created type 0 SMBIOS record with handle 0x0
+Nov  2 18:48:33.727096 xenconsoled: hypervisor: (d5) Created type 1 SMBIOS record with handle 0x100
+Nov  2 18:48:33.727193 xenconsoled: hypervisor: (d5) Created type 3 SMBIOS record with handle 0x300
+Nov  2 18:48:33.727257 xenconsoled: hypervisor: (d5) Created type 4 SMBIOS record with handle 0x401
+Nov  2 18:48:33.727321 xenconsoled: hypervisor: (d5) Created type 4 SMBIOS record with handle 0x402
+Nov  2 18:48:33.727334 xenconsoled: hypervisor: (d5) Created type 7 SMBIOS record with handle 0x701
+Nov  2 18:48:33.727395 xenconsoled: hypervisor: (d5) Created type 11 SMBIOS record with handle 0xb00
+Nov  2 18:48:33.727460 xenconsoled: hypervisor: (d5) Created type 16 SMBIOS record with handle 0x1000
+Nov  2 18:48:33.727468 xenconsoled: hypervisor: (d5) Created type 17 SMBIOS record with handle 0x1100
+Nov  2 18:48:33.727532 xenconsoled: hypervisor: (d5) Created type 19 SMBIOS record with handle 0x1300
+Nov  2 18:48:33.727540 xenconsoled: hypervisor: (d5) Created type 20 SMBIOS record with handle 0x1400
+Nov  2 18:48:33.727603 xenconsoled: hypervisor: (d5) Created type 32 SMBIOS record with handle 0x2000
+Nov  2 18:48:33.727686 xenconsoled: hypervisor: (d5) Created type 127 SMBIOS record with handle 0x7f00
+Nov  2 18:48:33.727697 xenconsoled: hypervisor: (d5) Loading SeaBIOS ...
+Nov  2 18:48:33.727702 xenconsoled: hypervisor: (d5) Creating MP tables ...
+Nov  2 18:48:33.727774 xenconsoled: hypervisor: (d5) Loading Standard VGABIOS ...
+Nov  2 18:48:33.741335 xenconsoled: hypervisor: (d5) Option ROMs:
+Nov  2 18:48:33.741343 xenconsoled: hypervisor: (d5)  c0000-ca7ff: VGA BIOS
+Nov  2 18:48:33.741348 xenconsoled: hypervisor: (d5)  ca800-dc9ff: Etherboot ROM
+Nov  2 18:48:33.741429 xenconsoled: hypervisor: (d5) Loading ACPI ...
+Nov  2 18:48:33.741978 xenconsoled: hypervisor: (d5) CONV disabled
+Nov  2 18:48:33.741986 xenconsoled: hypervisor: (d5)   Table (APIC) is NOT SLIC
+Nov  2 18:48:33.742040 xenconsoled: hypervisor: (d5)   Table (HPET) is NOT SLIC
+Nov  2 18:48:33.742050 xenconsoled: hypervisor: (d5)   Table (WAET) is NOT SLIC
+Nov  2 18:48:33.742055 xenconsoled: hypervisor: (d5)   Table (SSDT) is NOT SLIC
+Nov  2 18:48:33.742127 xenconsoled: hypervisor: (d5)   Table (SSDT) is NOT SLIC
+Nov  2 18:48:33.742137 xenconsoled: hypervisor: (d5)   Table (SSDT) is NOT SLIC
+Nov  2 18:48:33.742213 xenconsoled: hypervisor: (d5) vm86 TSS at fc00af80
+Nov  2 18:48:33.742451 xenconsoled: hypervisor: (d5) BIOS map:
+Nov  2 18:48:33.742459 xenconsoled: hypervisor: (d5)  10000-100e3: Scratch space
+Nov  2 18:48:33.742519 xenconsoled: hypervisor: (d5)  e0000-fffff: Main BIOS
+Nov  2 18:48:33.742526 xenconsoled: hypervisor: (d5) E820 table:
+Nov  2 18:48:33.742577 xenconsoled: hypervisor: (d5)  [00]: 00000000:00000000 - 00000000:000a0000: RAM
+Nov  2 18:48:33.742584 xenconsoled: hypervisor: (d5)  HOLE: 00000000:000a0000 - 00000000:000e0000
+Nov  2 18:48:33.742635 xenconsoled: hypervisor: (d5)  [01]: 00000000:000e0000 - 00000000:00100000: RESERVED
+Nov  2 18:48:33.742641 xenconsoled: hypervisor: (d5)  [02]: 00000000:00100000 - 00000000:7f000000: RAM
+Nov  2 18:48:33.742692 xenconsoled: hypervisor: (d5)  HOLE: 00000000:7f000000 - 00000000:fc000000
+Nov  2 18:48:33.742770 xenconsoled: hypervisor: (d5)  [03]: 00000000:fc000000 - 00000001:00000000: RESERVED
+Nov  2 18:48:33.742781 xenconsoled: hypervisor: (d5) Invoking SeaBIOS ...
+Nov  2 18:48:33.743331 xenconsoled: hypervisor: (d5) SeaBIOS (version 1.7.5-openxt)
+Nov  2 18:48:33.743341 xenconsoled: hypervisor: (d5) 
+Nov  2 18:48:33.743416 xenconsoled: hypervisor: (d5) Found Xen hypervisor signature at 40000100
+Nov  2 18:48:33.743534 xenconsoled: hypervisor: (d5) Running on QEMU (i440fx)
+Nov  2 18:48:33.743541 xenconsoled: hypervisor: (d5) xen: copy e820...
+Nov  2 18:48:33.743612 xenconsoled: hypervisor: (d5) Relocating init from 0x000e3869 to 0x7efb4000 (size 46976)
+Nov  2 18:48:33.745609 xenconsoled: hypervisor: (d5) CPU Mhz=2694
+Nov  2 18:48:33.747620 xenconsoled: hypervisor: (d5) Found 10 PCI devices (max PCI bus is 00)
+Nov  2 18:48:33.747628 xenconsoled: hypervisor: (d5) Allocated Xen hypercall page at 7efff000
+Nov  2 18:48:33.747681 xenconsoled: hypervisor: (d5) Detected Xen v4.9.0-xc
+Nov  2 18:48:33.747687 xenconsoled: hypervisor: (d5) xen: copy BIOS tables...
+Nov  2 18:48:33.747738 xenconsoled: hypervisor: (d5) Copying SMBIOS entry point from 0x00010020 to 0x000f4fe0
+Nov  2 18:48:33.747745 xenconsoled: hypervisor: (d5) Copying MPTABLE from 0xfc001190/fc0011a0 to 0x000f4ee0
+Nov  2 18:48:33.747796 xenconsoled: hypervisor: (d5) Copying PIR from 0x00010040 to 0x000f4e60
+Nov  2 18:48:33.747802 xenconsoled: hypervisor: (d5) Copying ACPI RSDP from 0x000100c0 to 0x000f4e30
+Nov  2 18:48:33.747873 xenconsoled: hypervisor: (d5) Using pmtimer, ioport 0xb008
+Nov  2 18:48:33.747881 xenconsoled: hypervisor: (d5) Scan for VGA option rom
+Nov  2 18:48:33.747970 xenconsoled: hypervisor: (d5) Running option rom at c000:0003
+Nov  2 18:48:33.748078 xenconsoled: hypervisor: (d5) VGABios $Id: vgabios.c,v 1.75 2011/10/15 14:07:21 vruppert Exp $
+Nov  2 18:48:33.748366 xenconsoled: hypervisor: (d5) VBE Bios $Id: vbe.c,v 1.64 2011/07/19 18:25:05 vruppert Exp $
+Nov  2 18:48:33.748539 xenconsoled: hypervisor: (d5) VGABios set VGA_SHADOW_ONLY flag
+Nov  2 18:48:33.765938 rpc-proxy: incoming connection from domain 1, port 0xa607ef88, fd is 10
+Nov  2 18:48:33.768625 rpc-proxy: incoming connection from domain 1, port 0xba83083d, fd is 17
+Nov  2 18:48:33.768792 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.768943 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.768954 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.769416 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.769442 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 19>
+Nov  2 18:48:33.769728 rpc-proxy: starting forwarding <socket: 19> -> <v4v: 10>
+Nov  2 18:48:33.770249 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.770363 rpc-proxy: authenticating client <v4v: 17> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.770374 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.772488 rpc-proxy: auth done for <v4v: 17>
+Nov  2 18:48:33.772514 rpc-proxy: starting forwarding <v4v: 17> -> <socket: 20>
+Nov  2 18:48:33.772733 rpc-proxy: starting forwarding <socket: 20> -> <v4v: 17>
+Nov  2 18:48:33.777290 rpc-proxy: incoming connection from domain 1, port 0x92b8445c, fd is 21
+Nov  2 18:48:33.777544 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.777649 rpc-proxy: authenticating client <v4v: 21> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.777664 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.778050 rpc-proxy: auth done for <v4v: 21>
+Nov  2 18:48:33.778073 rpc-proxy: starting forwarding <v4v: 21> -> <socket: 22>
+Nov  2 18:48:33.778346 rpc-proxy: starting forwarding <socket: 22> -> <v4v: 21>
+Nov  2 18:48:33.780816 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.785437 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.789953 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.792256 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.796457 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.798042 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.802487 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.803827 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.808854 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.811390 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.816332 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.822620 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.823388 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.823404 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 19>
+Nov  2 18:48:33.823503 rpc-proxy: <socket: 19>: end of stream reached on <socket: 19>
+Nov  2 18:48:33.823524 rpc-proxy: stopping forwarding <socket: 19> -> <v4v: 10>
+Nov  2 18:48:33.826131 rpc-proxy: <v4v: 17>: end of stream reached on <v4v: 17>
+Nov  2 18:48:33.826148 rpc-proxy: stopping forwarding <v4v: 17> -> <socket: 20>
+Nov  2 18:48:33.826474 rpc-proxy: <socket: 20>: end of stream reached on <socket: 20>
+Nov  2 18:48:33.826486 rpc-proxy: stopping forwarding <socket: 20> -> <v4v: 17>
+Nov  2 18:48:33.832165 rpc-proxy: <v4v: 21>: end of stream reached on <v4v: 21>
+Nov  2 18:48:33.832186 rpc-proxy: stopping forwarding <v4v: 21> -> <socket: 22>
+Nov  2 18:48:33.832310 rpc-proxy: <socket: 22>: end of stream reached on <socket: 22>
+Nov  2 18:48:33.832328 rpc-proxy: stopping forwarding <socket: 22> -> <v4v: 21>
+Nov  2 18:48:33.833110 uid: [info|uid] UI: device_mode [40]
+Nov  2 18:48:33.833729 uid: [info|uid] UI: device_strength [41]
+Nov  2 18:48:33.834086 xenconsoled: Network (1): network-slave: -N FORWARD_vif6.0_IN
+Nov  2 18:48:33.844613 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_IN
+Nov  2 18:48:33.845499 xenconsoled: hypervisor: (d5) Turning on vga text mode console
+Nov  2 18:48:33.845603 xenconsoled: hypervisor: (d5) VGABios set VGA_SHADOW_ONLY flag
+Nov  2 18:48:33.850515 xenconsoled: Network (1): network-slave: Active connections - [/org/freedesktop/NetworkManager/ActiveConnection/0]
+Nov  2 18:48:33.850559 xenconsoled: Network (1): network-slave: Check if /org/freedesktop/NetworkManager/ActiveConnection/0 is connected
+Nov  2 18:48:33.858351 xenconsoled: Network (1): network-slave: -N FORWARD_vif6.0_OUT
+Nov  2 18:48:33.862609 xenconsoled: Network (1): network-slave: -F FORWARD_vif6.0_OUT
+Nov  2 18:48:33.863048 uid: [info|uid] UI: device_mode [42]
+Nov  2 18:48:33.863708 uid: [info|uid] UI: device_strength [43]
+Nov  2 18:48:33.865559 xenconsoled: Network (1): network-slave: Active connections - [/org/freedesktop/NetworkManager/ActiveConnection/0]
+Nov  2 18:48:33.865728 xenconsoled: Network (1): network-slave: Check if /org/freedesktop/NetworkManager/ActiveConnection/0 is connected
+Nov  2 18:48:33.871475 xenconsoled: Network (1): network-slave: iptables  -I FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif6.0 -j FORWARD_vif6.0_IN
+Nov  2 18:48:33.876299 xenconsoled: Network (1): network-slave: iptables  -I FORWARD -i brbridged -m physdev --physdev-in vif6.0 -j FORWARD_vif6.0_OUT
+Nov  2 18:48:33.879266 xenconsoled: hypervisor: (d5) SeaBIOS (version 1.7.5-openxt)
+Nov  2 18:48:33.886814 rpc-proxy: incoming connection from domain 1, port 0x9dabb50b, fd is 10
+Nov  2 18:48:33.887112 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.887254 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.887275 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.887550 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.887575 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.887857 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.889120 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.890336 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.891185 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.892352 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.895112 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.895128 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.895207 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.895221 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.895714 xenconsoled: Network (1): network-slave: Joining vif6.0 to brbridged
+Nov  2 18:48:33.896671 xenconsoled: hypervisor: (d5) Machine UUID 698d06e8-9c84-4420-88c9-0a1df315fea6
+Nov  2 18:48:33.897357 xenconsoled: hypervisor: (d5) /7efb3000\ Start thread
+Nov  2 18:48:33.897365 xenconsoled: hypervisor: (d5) \7efb3000/ End thread
+Nov  2 18:48:33.897369 xenconsoled: hypervisor: (d5) All threads complete.
+Nov  2 18:48:33.897432 xenconsoled: hypervisor: (d5) /7efb3000\ Start thread
+Nov  2 18:48:33.897778 xenconsoled: hypervisor: (d5) Found 0 lpt ports
+Nov  2 18:48:33.897916 xenconsoled: hypervisor: (d5) Found 0 serial ports
+Nov  2 18:48:33.898005 xenconsoled: hypervisor: (d5) ATA controller 1 at 1f0/3f4/0 (irq 14 dev 9)
+Nov  2 18:48:33.898012 xenconsoled: hypervisor: (d5) /7efb2000\ Start thread
+Nov  2 18:48:33.898463 xenconsoled: hypervisor: (d5) ATA controller 2 at 170/374/0 (irq 15 dev 9)
+Nov  2 18:48:33.898471 xenconsoled: hypervisor: (d5) /7efb1000\ Start thread
+Nov  2 18:48:33.900924 xenconsoled: hypervisor: (d5) |7efb2000| ata0-0: QEMU HARDDISK ATA-7 Hard-Disk (78 GiBytes)
+Nov  2 18:48:33.900936 xenconsoled: hypervisor: (d5) |7efb2000| Searching bootorder for: /pci@i0cf8/*@1,1/drive@0/disk@0
+Nov  2 18:48:33.901396 xenconsoled: hypervisor: (d5) |7efb2000| DVD/CD [ata0-1: QEMU DVD PT ATAPI-4 DVD/CD]
+Nov  2 18:48:33.901407 xenconsoled: hypervisor: (d5) |7efb2000| Searching bootorder for: /pci@i0cf8/*@1,1/drive@0/disk@1
+Nov  2 18:48:33.901483 xenconsoled: hypervisor: (d5) \7efb2000/ End thread
+Nov  2 18:48:33.901866 xenconsoled: hypervisor: (d5) |7efb1000| DVD/CD [ata1-0: QEMU DVD-ROM ATAPI-4 DVD/CD]
+Nov  2 18:48:33.901877 xenconsoled: hypervisor: (d5) |7efb1000| Searching bootorder for: /pci@i0cf8/*@1,1/drive@1/disk@0
+Nov  2 18:48:33.902254 xenconsoled: hypervisor: (d5) \7efb1000/ End thread
+Nov  2 18:48:33.902725 xenconsoled: Network (1): [  449.539348] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.902735 xenconsoled: Network (1): [  449.539360] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.903436 xenconsoled: Network (1): kernel: [  449.539348] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.903448 xenconsoled: Network (1): kernel: [  449.539360] brbridged: port 3(vif6.0) entered disabled state
+Nov  2 18:48:33.906527 xenconsoled: Network (1): [  449.543149] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.906538 xenconsoled: Network (1): [  449.543160] brbridged: port 3(vif6.0) entered forwarding state
+Nov  2 18:48:33.907036 xenconsoled: Network (1): network-slave: Move vif vif6.0 to brbridged network successful
+Nov  2 18:48:33.907060 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged tap6.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:33.907069 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap6.0
+Nov  2 18:48:33.908765 xenconsoled: sfsafs-dm (6): qemu-system-i386: vwif1 (vwif1): link status is now down.
+Nov  2 18:48:33.913465 xenconsoled: Network (1): kernel: [  449.543149] brbridged: port 3(vif6.0) entered blocking state
+Nov  2 18:48:33.913473 xenconsoled: Network (1): kernel: [  449.543160] brbridged: port 3(vif6.0) entered forwarding state
+Nov  2 18:48:33.916313 xenconsoled: sfsafs-dm (6): qemu-system-i386: surfman-ui: resize 640x480:2560 -> 720x400:2880.
+Nov  2 18:48:33.926306 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared vif5.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:33.934084 rpc-proxy: incoming connection from domain 1, port 0xe5f1d651, fd is 10
+Nov  2 18:48:33.934316 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.934446 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.934462 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.934819 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.934842 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.935114 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.936179 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.937180 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.937923 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.938884 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.941463 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.941475 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.941518 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.941529 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.951038 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.1_OUT
+Nov  2 18:48:33.954644 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.1_OUT
+Nov  2 18:48:33.958160 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.1_IN
+Nov  2 18:48:33.961897 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.1_IN
+Nov  2 18:48:33.965572 xenconsoled: Network (1): network-slave: Configure vif5.1 before joining it to brwireless
+Nov  2 18:48:33.987262 rpc-proxy: incoming connection from domain 1, port 0xa7a117d1, fd is 10
+Nov  2 18:48:33.987659 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:33.987824 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:33.987849 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:33.988244 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:33.988271 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.988603 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.990064 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:33.991322 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:33.992227 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:33.993447 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:33.996175 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:33.996193 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:33.996274 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:33.996284 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:33.997132 xenconsoled: Network (1): network-slave: Joining vif5.1 to brwireless
+Nov  2 18:48:34.003942 xenconsoled: Network (1): [  449.640575] brwireless: port 2(vif5.1) entered blocking state
+Nov  2 18:48:34.003951 xenconsoled: Network (1): [  449.640584] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.003995 xenconsoled: Network (1): [  449.640623] device vif5.1 entered promiscuous mode
+Nov  2 18:48:34.007961 xenconsoled: Network (1): network-slave: Move vif vif5.1 to brwireless network successful
+Nov  2 18:48:34.007970 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared tap5.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:34.007998 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap5.1
+Nov  2 18:48:34.013458 xenconsoled: Network (1): kernel: [  449.640575] brwireless: port 2(vif5.1) entered blocking state
+Nov  2 18:48:34.013467 xenconsoled: Network (1): kernel: [  449.640584] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.013473 xenconsoled: Network (1): kernel: [  449.640623] device vif5.1 entered promiscuous mode
+Nov  2 18:48:34.029828 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared vif5.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:34.033338 xenconsoled: Network (1): [  449.669971] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.033581 xenconsoled: Network (1): kernel: [  449.669971] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.044606 rpc-proxy: incoming connection from domain 1, port 0xc1dabc8f, fd is 10
+Nov  2 18:48:34.044989 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.045134 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.045153 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.045589 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.045615 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.045817 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.047339 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.048546 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.049370 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.050597 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.053830 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.053846 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.053928 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.053943 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.054455 xenconsoled: Network (1): network-slave: -D FORWARD_brwireless -o brwireless -m physdev --physdev-is-bridged --physdev-out vif5.1 -j FORWARD_vif5.1_IN
+Nov  2 18:48:34.058308 xenconsoled: Network (1): network-slave: -D FORWARD -i brwireless -m physdev --physdev-in vif5.1 -j FORWARD_vif5.1_OUT
+Nov  2 18:48:34.061970 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.1_OUT
+Nov  2 18:48:34.065477 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.1_OUT
+Nov  2 18:48:34.069521 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.1_IN
+Nov  2 18:48:34.073018 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.1_IN
+Nov  2 18:48:34.076580 xenconsoled: Network (1): network-slave: Configure vif5.1 before joining it to brwireless
+Nov  2 18:48:34.097649 rpc-proxy: incoming connection from domain 1, port 0xa83a209a, fd is 10
+Nov  2 18:48:34.098031 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.098206 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.098234 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.098680 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.098710 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.098994 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.100374 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.101575 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.102432 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.108327 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.111052 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.111064 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.111117 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.111128 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.112067 xenconsoled: Network (1): network-slave: Joining vif5.1 to brwireless
+Nov  2 18:48:34.118900 xenconsoled: Network (1): [  449.755530] brwireless: port 2(vif5.1) entered blocking state
+Nov  2 18:48:34.118907 xenconsoled: Network (1): [  449.755540] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.123007 xenconsoled: Network (1): network-slave: Move vif vif5.1 to brwireless network successful
+Nov  2 18:48:34.123015 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wifi/0/shared tap5.1 Just (NetworkInfo {nwIndex = 0, nwInterface = "wlan0", nwBridge = "brwireless"})
+Nov  2 18:48:34.123020 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap5.1
+Nov  2 18:48:34.123430 xenconsoled: Network (1): kernel: [  449.755530] brwireless: port 2(vif5.1) entered blocking state
+Nov  2 18:48:34.123448 xenconsoled: Network (1): kernel: [  449.755540] brwireless: port 2(vif5.1) entered disabled state
+Nov  2 18:48:34.144361 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged vif5.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:34.152098 rpc-proxy: incoming connection from domain 1, port 0x94a757d7, fd is 10
+Nov  2 18:48:34.152431 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.152562 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.152576 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.152891 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.152910 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.153186 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.154456 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.155589 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.156419 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.157462 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.160105 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.160121 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.160195 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.160207 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.169087 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_OUT
+Nov  2 18:48:34.172742 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.0_OUT
+Nov  2 18:48:34.176274 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_IN
+Nov  2 18:48:34.179769 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.0_IN
+Nov  2 18:48:34.183267 xenconsoled: Network (1): network-slave: Configure vif5.0 before joining it to brbridged
+Nov  2 18:48:34.204754 rpc-proxy: incoming connection from domain 1, port 0x93e4db84, fd is 10
+Nov  2 18:48:34.205125 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.205339 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.205354 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.205773 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.205791 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.206092 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.207493 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.208699 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.209439 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.210476 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.213025 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.213036 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.213100 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.213112 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.213944 xenconsoled: Network (1): network-slave: -N FORWARD_vif5.0_IN
+Nov  2 18:48:34.214263 xenconsoled: sfsafs-dm (6): [    1.040031] stubdombr1: port 1(eth1) entered blocking state
+Nov  2 18:48:34.214281 xenconsoled: sfsafs-dm (6): [    1.040042] stubdombr1: port 1(eth1) entered forwarding state
+Nov  2 18:48:34.214310 xenconsoled: sfsafs-dm (6): [    1.040084] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x26d44e7dc1e, max_idle_ns: 440795262305 ns
+Nov  2 18:48:34.217669 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_IN
+Nov  2 18:48:34.221264 xenconsoled: Network (1): network-slave: -N FORWARD_vif5.0_OUT
+Nov  2 18:48:34.224320 xenconsoled: sfsafs-dm (6): kernel: [    1.040031] stubdombr1: port 1(eth1) entered blocking state
+Nov  2 18:48:34.224327 xenconsoled: sfsafs-dm (6): kernel: [    1.040042] stubdombr1: port 1(eth1) entered forwarding state
+Nov  2 18:48:34.224331 xenconsoled: sfsafs-dm (6): kernel: [    1.040084] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x26d44e7dc1e, max_idle_ns: 440795262305 ns
+Nov  2 18:48:34.225351 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_OUT
+Nov  2 18:48:34.230903 xenconsoled: Network (1): network-slave: iptables  -I FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif5.0 -j FORWARD_vif5.0_IN
+Nov  2 18:48:34.235065 xenconsoled: Network (1): network-slave: iptables  -I FORWARD -i brbridged -m physdev --physdev-in vif5.0 -j FORWARD_vif5.0_OUT
+Nov  2 18:48:34.244383 rpc-proxy: incoming connection from domain 1, port 0x8be39936, fd is 10
+Nov  2 18:48:34.244757 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.244878 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.244894 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.245272 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.245293 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.245568 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.246613 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.247725 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.248438 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.249381 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.252102 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.252113 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.252177 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.252184 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.252652 xenconsoled: Network (1): network-slave: Joining vif5.0 to brbridged
+Nov  2 18:48:34.259989 xenconsoled: Network (1): [  449.896610] brbridged: port 4(vif5.0) entered blocking state
+Nov  2 18:48:34.259996 xenconsoled: Network (1): [  449.896619] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.260033 xenconsoled: Network (1): [  449.896664] device vif5.0 entered promiscuous mode
+Nov  2 18:48:34.263442 xenconsoled: Network (1): kernel: [  449.896610] brbridged: port 4(vif5.0) entered blocking state
+Nov  2 18:48:34.263449 xenconsoled: Network (1): kernel: [  449.896619] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.263453 xenconsoled: Network (1): kernel: [  449.896664] device vif5.0 entered promiscuous mode
+Nov  2 18:48:34.264164 xenconsoled: Network (1): network-slave: Move vif vif5.0 to brbridged network successful
+Nov  2 18:48:34.264172 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged tap5.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:34.264176 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap5.0
+Nov  2 18:48:34.283444 xenconsoled: Network (1): [  449.920060] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:34.283452 xenconsoled: Network (1): [  449.920072] brwireless: port 1(vif6.1) entered forwarding state
+Nov  2 18:48:34.283686 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged vif5.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:34.287012 xenconsoled: Network (1): [  449.923649] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.293431 xenconsoled: Network (1): kernel: [  449.920060] brwireless: port 1(vif6.1) entered blocking state
+Nov  2 18:48:34.293438 xenconsoled: Network (1): kernel: [  449.920072] brwireless: port 1(vif6.1) entered forwarding state
+Nov  2 18:48:34.293442 xenconsoled: Network (1): kernel: [  449.923649] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.298155 rpc-proxy: incoming connection from domain 1, port 0xad26d77d, fd is 10
+Nov  2 18:48:34.298448 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.298584 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.298604 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.298938 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.298964 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.299241 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.300457 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.301492 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.302169 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.303121 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.305685 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.305700 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.305752 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.305766 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.306241 xenconsoled: Network (1): network-slave: -D FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif5.0 -j FORWARD_vif5.0_IN
+Nov  2 18:48:34.310646 xenconsoled: Network (1): network-slave: -D FORWARD -i brbridged -m physdev --physdev-in vif5.0 -j FORWARD_vif5.0_OUT
+Nov  2 18:48:34.314360 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_OUT
+Nov  2 18:48:34.318010 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.0_OUT
+Nov  2 18:48:34.321503 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_IN
+Nov  2 18:48:34.325029 xenconsoled: Network (1): network-slave: -X FORWARD_vif5.0_IN
+Nov  2 18:48:34.328503 xenconsoled: Network (1): network-slave: Configure vif5.0 before joining it to brbridged
+Nov  2 18:48:34.349554 rpc-proxy: incoming connection from domain 1, port 0xbc80fc2a, fd is 10
+Nov  2 18:48:34.349877 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.349999 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.350011 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.350496 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.350526 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.350896 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.352086 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.353176 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.353984 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.355053 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.357728 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.357740 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.357777 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.357787 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.358786 xenconsoled: Network (1): network-slave: -N FORWARD_vif5.0_IN
+Nov  2 18:48:34.362433 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_IN
+Nov  2 18:48:34.366014 xenconsoled: Network (1): network-slave: -N FORWARD_vif5.0_OUT
+Nov  2 18:48:34.369526 xenconsoled: Network (1): network-slave: -F FORWARD_vif5.0_OUT
+Nov  2 18:48:34.375636 xenconsoled: Network (1): network-slave: iptables  -I FORWARD_brbridged -o brbridged -m physdev --physdev-is-bridged --physdev-out vif5.0 -j FORWARD_vif5.0_IN
+Nov  2 18:48:34.379777 xenconsoled: Network (1): network-slave: iptables  -I FORWARD -i brbridged -m physdev --physdev-in vif5.0 -j FORWARD_vif5.0_OUT
+Nov  2 18:48:34.388981 rpc-proxy: incoming connection from domain 1, port 0xdf69bbe5, fd is 10
+Nov  2 18:48:34.389319 rpc-proxy: null byte received from incoming transport - setting up conversation
+Nov  2 18:48:34.389483 rpc-proxy: authenticating client <v4v: 10> ArtefactSource {sourceDomainID = 1, sourceUuid = Just 00000000-0000-0000-0000-000000000002, sourceIsStubdom = False}
+Nov  2 18:48:34.389500 rpc-proxy: auth: null byte sent to server
+Nov  2 18:48:34.389841 rpc-proxy: auth done for <v4v: 10>
+Nov  2 18:48:34.389864 rpc-proxy: starting forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.390112 rpc-proxy: starting forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.391372 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-read-access) = True
+Nov  2 18:48:34.392425 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,domstore-write-access) = True
+Nov  2 18:48:34.393251 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,usb-control) = False
+Nov  2 18:48:34.394388 rpc-proxy: assuming (00000000-0000-0000-0000-000000000002,type) = "ndvm"
+Nov  2 18:48:34.397037 rpc-proxy: <v4v: 10>: end of stream reached on <v4v: 10>
+Nov  2 18:48:34.397049 rpc-proxy: stopping forwarding <v4v: 10> -> <socket: 17>
+Nov  2 18:48:34.397089 rpc-proxy: <socket: 17>: end of stream reached on <socket: 17>
+Nov  2 18:48:34.397099 rpc-proxy: stopping forwarding <socket: 17> -> <v4v: 10>
+Nov  2 18:48:34.397579 xenconsoled: Network (1): network-slave: Joining vif5.0 to brbridged
+Nov  2 18:48:34.404206 xenconsoled: Network (1): [  450.040822] brbridged: port 4(vif5.0) entered blocking state
+Nov  2 18:48:34.404213 xenconsoled: Network (1): [  450.040840] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.408697 xenconsoled: Network (1): network-slave: Move vif vif5.0 to brbridged network successful
+Nov  2 18:48:34.408705 xenconsoled: Network (1): network-slave: moveInterfaceToNetwork /wired/0/bridged tap5.0 Just (NetworkInfo {nwIndex = 0, nwInterface = "eth0", nwBridge = "brbridged"})
+Nov  2 18:48:34.408729 xenconsoled: Network (1): network-slave: Move vif to network - Ignoring tap5.0
+Nov  2 18:48:34.413460 xenconsoled: Network (1): kernel: [  450.040822] brbridged: port 4(vif5.0) entered blocking state
+Nov  2 18:48:34.413467 xenconsoled: Network (1): kernel: [  450.040840] brbridged: port 4(vif5.0) entered disabled state
+Nov  2 18:48:34.782876 surfman: Info: [PLUGIN-DRM] It seems like we have a panel fitter...
+Nov  2 18:48:34.782902 surfman: Info: [PLUGIN-DRM] ... using mode (640x480) to display a (640 x 480) framebuffer via the panel fitter.
+Nov  2 18:48:36.132069 surfman: Info: [PLUGIN-DRM] Connector:39, VGA, connected -> Encoder:38, TMDS -> CRTC:26, (0,0) 640x480, mode:1920x1080 (640x480@60Hz), surface: dom5
+Nov  2 18:48:36.132606 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:input_keyboard_reset:700:input_keyboard_reset
+Nov  2 18:48:36.133099 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:do_grab:166:grab=1
+Nov  2 18:48:36.133145 input_server: Info:/home/build/1221/openxt/build/tmp-glibc/work/core2-32-oe-linux/xenclient-input-daemon/0+gitAUTOINC+322c9fa5b9-r0/git/input.c:input_set:937:all input now directed to domid:5 abs_enabled:0
+Nov  2 18:48:36.184414 xenconsoled: sfsafs-dm (6): [    3.010094] random: crng init done
+Nov  2 18:48:36.194440 xenconsoled: sfsafs-dm (6): kernel: [    3.010094] random: crng init done
+Nov  2 18:48:37.222899 surfman: Info: [PLUGIN-DRM] It seems like we have a panel fitter...
+Nov  2 18:48:37.222927 surfman: Info: [PLUGIN-DRM] ... using mode (720x400) to display a (720 x 400) framebuffer via the panel fitter.
+Nov  2 18:48:38.582984 surfman: Info: [PLUGIN-DRM] It seems like we have a panel fitter...
+Nov  2 18:48:38.583004 surfman: Info: [PLUGIN-DRM] ... using mode (720x400) to display a (720 x 400) framebuffer via the panel fitter.
+Nov  2 18:48:38.831650 xenconsoled: sfsafs-dm (6): qemu-system-i386: [block/atapi-pt-protocol.c:have_focus_cb:251] focus change detected /dev/bsg/1:0:0:0 = 1
+Nov  2 18:48:38.833286 xenconsoled: hypervisor: (d5) |7efb3000| PS2 keyboard initialized
+Nov  2 18:48:38.833294 xenconsoled: hypervisor: (d5) \7efb3000/ End thread
+Nov  2 18:48:38.833298 xenconsoled: hypervisor: (d5) All threads complete.
+Nov  2 18:48:38.833302 xenconsoled: hypervisor: (d5) Scan for option roms
+Nov  2 18:48:38.833358 xenconsoled: hypervisor: (d5) Ignoring iPXE rom.
+Nov  2 18:48:38.833413 xenconsoled: hypervisor: (d5) Searching bootorder for: HALT
+Nov  2 18:48:38.833491 xenconsoled: hypervisor: (d5) drive 0x000f4de0: PCHS=16383/16/63 translation=lba LCHS=1024/255/63 s=163840000
+Nov  2 18:48:38.833498 xenconsoled: hypervisor: (d5) 
+Nov  2 18:48:38.833550 xenconsoled: hypervisor: (d5) Space available for UMB: dd000-ed000, f4800-f4d50
+Nov  2 18:48:38.833557 xenconsoled: hypervisor: (d5) Returned 258048 bytes of ZoneHigh
+Nov  2 18:48:38.833560 xenconsoled: hypervisor: (d5) e820 map has 6 items:
+Nov  2 18:48:38.833611 xenconsoled: hypervisor: (d5)   0: 0000000000000000 - 000000000009fc00 = 1 RAM
+Nov  2 18:48:38.833618 xenconsoled: hypervisor: (d5)   1: 000000000009fc00 - 00000000000a0000 = 2 RESERVED
+Nov  2 18:48:38.833669 xenconsoled: hypervisor: (d5)   2: 00000000000f0000 - 0000000000100000 = 2 RESERVED
+Nov  2 18:48:38.833676 xenconsoled: hypervisor: (d5)   3: 0000000000100000 - 000000007efff000 = 1 RAM
+Nov  2 18:48:38.833679 xenconsoled: hypervisor: (d5)   4: 000000007efff000 - 000000007f000000 = 2 RESERVED
+Nov  2 18:48:38.833730 xenconsoled: hypervisor: (d5)   5: 00000000fc000000 - 0000000100000000 = 2 RESERVED
+Nov  2 18:48:38.833998 xenconsoled: hypervisor: (d5) enter handle_19:
+Nov  2 18:48:38.834005 xenconsoled: hypervisor: (d5)   NULL
+Nov  2 18:48:38.842280 xenconsoled: hypervisor: (d5) Booting from Hard Disk...
+Nov  2 18:48:38.843384 xenconsoled: hypervisor: (d5) Booting from 0000:7c00
+Nov  2 18:48:38.844498 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:38.844554 xenconsoled: hypervisor: (d5)    a=0000bb00  b=0000aa55  c=0000ffff  d=00000080 ds=0000 es=0000 ss=0000
+Nov  2 18:48:38.844561 xenconsoled: hypervisor: (d5)   si=00007e00 di=00000800 bp=000007be sp=00007bfe cs=0000 ip=06e7  f=0246
+Nov  2 18:48:38.849766 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:38.849774 xenconsoled: hypervisor: (d5)    a=0000bb00  b=00000000  c=00000000  d=000009a0 ds=07c0 es=09a0 ss=0000
+Nov  2 18:48:38.849826 xenconsoled: hypervisor: (d5)   si=00007be4 di=00000800 bp=000007be sp=00007c00 cs=07c0 ip=00db  f=0246
+Nov  2 18:48:39.108767 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:39.108775 xenconsoled: hypervisor: (d5)    a=0000bb00  b=00000000  c=00000061  d=00000000 ds=07c0 es=2000 ss=0000
+Nov  2 18:48:39.108833 xenconsoled: hypervisor: (d5)   si=00003808 di=00000000 bp=000007be sp=00007bda cs=07c0 ip=1000  f=0246
+Nov  2 18:48:39.278335 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:39.278356 xenconsoled: hypervisor: (d5)    a=0000bb00  b=00000000  c=00000000  d=00000000 ds=0000 es=0000 ss=24ad
+Nov  2 18:48:39.278435 xenconsoled: hypervisor: (d5)   si=00000000 di=00000000 bp=00000000 sp=00001462 cs=2000 ip=0a39  f=0246
+Nov  2 18:48:39.314980 xenconsoled: sfsafs-dm (6): qemu-system-i386: surfman-ui: resize 720x400:2880 -> 1024x768:4096 (shared).
+Nov  2 18:48:39.610021 surfman: Warning: [PLUGIN-DRM] Could not create foreign framebuffer for dom5 (Invalid argument). Falling back to dumb method.
+Nov  2 18:48:40.402933 surfman: Info: [PLUGIN-DRM] It seems like we have a panel fitter...
+Nov  2 18:48:40.402961 surfman: Info: [PLUGIN-DRM] ... using mode (1024x768) to display a (1024 x 768) framebuffer via the panel fitter.
+Nov  2 18:48:41.753038 surfman: Info: [PLUGIN-DRM] It seems like we have a panel fitter...
+Nov  2 18:48:41.753066 surfman: Info: [PLUGIN-DRM] ... using mode (1024x768) to display a (1024 x 768) framebuffer via the panel fitter.
+Nov  2 18:48:42.701368 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:42.701390 xenconsoled: hypervisor: (d5)    a=0000bb00  b=00000000  c=00000000  d=00000000 ds=0000 es=0000 ss=24ad
+Nov  2 18:48:42.701451 xenconsoled: hypervisor: (d5)   si=00000000 di=00000000 bp=00000000 sp=00001462 cs=2000 ip=0a39  f=0246
+Nov  2 18:48:44.160194 xenconsoled: hypervisor: (d5) unimplemented handle_1aXX:246:
+Nov  2 18:48:44.160204 xenconsoled: hypervisor: (d5)    a=0000bb00  b=00000000  c=00000000  d=00000000 ds=0000 es=0000 ss=24ad
+Nov  2 18:48:44.160262 xenconsoled: hypervisor: (d5)   si=00000000 di=00000000 bp=00000000 sp=00001462 cs=2000 ip=0a39  f=0246
+Nov  2 18:49:00.105195 xenconsoled: hypervisor: (XEN) d5: VIRIDIAN GUEST_OS_ID: vendor: 1 os: 4 major: a minor: 0 sp: 0 build: 271b
+Nov  2 18:49:00.105206 xenconsoled: hypervisor: (XEN) d5: VIRIDIAN HYPERCALL: enabled: 1 pfn: 1e8
+Nov  2 18:49:00.385554 xenconsoled: hypervisor: (XEN) d5v0: VIRIDIAN VP_ASSIST_PAGE: enabled: 1 pfn: c
+Nov  2 18:49:00.514609 xenconsoled: hypervisor: (XEN) d5: VIRIDIAN MSR_TIME_REF_COUNT: accessed
+Nov  2 18:49:00.723631 xenconsoled: hypervisor: (XEN) d5v1: VIRIDIAN VP_ASSIST_PAGE: enabled: 1 pfn: 3ffff
+Nov  2 18:49:01.512569 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:02.697006 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:05.505711 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:05.506640 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:07.390753 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.653377 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.654893 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.656310 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.657717 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.659012 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:12.660542 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:15.325525 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:15.327976 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:18.076914 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:18.078596 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.242967 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.243594 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.776772 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.777548 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.778326 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.779094 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:49:22.837774 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:50:58.154029 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:50:58.154667 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:50:58.925195 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:50:58.925841 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:52:09.965689 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense
+Nov  2 18:52:09.967497 xenconsoled: sfsafs-dm (6): qemu-system-i386: [hw/ide/atapi_pt.c:atapi_pt_fake_sense:1711] sending fake request sense

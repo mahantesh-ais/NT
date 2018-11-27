@@ -1,0 +1,21 @@
+Debugging ui (in machine web browser):
+
+1. This first step requires uivm to be mounted as rw (edit the template, restart dbd and reboot uivm)
+   the webinspector-XX.ipk is built but not installed by default.
+   copy it from the build machine into uivm and install it.
+   Now edit the .config/xfce*/xinitrc and edit the surf launch options in it.
+   The options should be: -BdFgkNP (for more info see man pages of surf).
+   reboot uivm
+
+    OR 
+
+   edit the bitbake file xenclient-uivm-image.bb and include the webkit-gtk-webinspector package in the install list
+   and give a build with that. Also, its required to change the options for surf to start. Edit the xinitrc file that will be installed in
+   uivm and find surf launch and edit the options to be the following: -BdFgkNP (for more info see man pages for surf)
+
+  * options to launch surf have webinspector and plugins disabled by default, the main reason to change the options above is to enable
+    them.
+
+2. press ctrl+shift+o 
+
+3. go to scripts section and enable debugging

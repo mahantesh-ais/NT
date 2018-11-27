@@ -1,0 +1,11 @@
+Steps to convert ndvm to rw:
+
+1. Change measured-launch attribute to "false" and disk options from "r" to "w", modify-vm-settings to "true" . Also remove any checksum value present at below locations
+	a. /config/vms/0xxx....2.db
+	b. /usr/share/xenmgr-1.0/templates/defaults/service-ndvm-pv
+2. kill dbd (killall -HUP dbd)
+3. restart ndvm (xec-vm -n Network reboot)
+4. sshv4v to Network
+5. switch to root (nr) and mount as read-write (rw)
+6. If new locations to be added then edit /etc/fstab with size required
+	a. mount the new location (mount /etc/openvswitch)

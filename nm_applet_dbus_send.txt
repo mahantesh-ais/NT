@@ -1,0 +1,7 @@
+dbus-send --system --type=signal / com.citrix.xenclient.xui.popup_network_menu uint32:1846 uint32:72
+
+dbus-send --system --type=signal / com.citrix.xenclient.xenmgr.notify.Signal string:00000000-0000-0000-0000-000000000002, string:vm:state:running:xxx
+
+dbus-send --system --type=signal / com.citrix.xenclient.xenmgr.notify.Signal string:00000000-0000-0000-0000-000000000002, string:backendshift:00000000-0000-0000-0000-000000000002
+
+

@@ -1,0 +1,69 @@
+Oct 18 15:47:29.018934 kernel:[    0.041881] ACPI: EC: interrupt blocked
+Oct 18 15:47:29.018938 kernel:[    0.042837] ACPI: Using IOAPIC for interrupt routing
+Oct 18 15:47:29.019322 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+Oct 18 15:47:29.019349 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 18 15:47:29.019375 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+Oct 18 15:47:29.019376 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *10 11 12 14 15)
+Oct 18 15:47:29.019377 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 *5 6 10 11 12 14 15)
+Oct 18 15:47:29.019377 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 *5 6 10 11 12 14 15)
+Oct 18 15:47:29.019378 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKG] (IRQs *3 4 5 6 10 11 12 14 15)
+Oct 18 15:47:29.019379 kernel:[    0.116643] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+Oct 18 15:47:29.019380 kernel:[    0.119581] ACPI: EC: interrupt unblocked
+Oct 18 15:47:29.019928 kernel:[    0.416689] i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+Oct 18 15:47:29.020422 kernel:[    3.220858] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+Oct 18 15:47:29.020673 kernel:[    7.324949] EXT4-fs (dm-8): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Oct 18 15:47:29.020674 kernel:[    7.432005] EXT4-fs (dm-9): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Oct 18 15:47:29.020675 kernel:[    7.433432] EXT4-fs (dm-10): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+Oct 18 15:47:29.020679 kernel:[    7.435298] EXT4-fs (dm-7): mounted filesystem with ordered data mode. Opts: errors=remount-ro,user_xattr
+Oct 18 15:47:29.029126 VM hypervisor: (XEN) ACPI: IRQ0 used by override.
+Oct 18 15:47:29.029132 VM hypervisor: (XEN) ACPI: IRQ2 used by override.
+Oct 18 15:47:29.029138 VM hypervisor: (XEN) ACPI: IRQ9 used by override.
+Oct 18 15:47:29.029458 VM hypervisor: (XEN) Intel VT-d Interrupt Remapping enabled.
+Oct 18 15:47:29.029464 VM hypervisor: (XEN) Intel VT-d Posted Interrupt not enabled.
+Oct 18 15:47:29.029489 VM hypervisor: (XEN) Interrupt remapping enabled
+Oct 18 15:47:29.232850 dbd: [error|dbd] Problem reading contents of directory /config/vms
+Oct 18 15:47:29.232872 dbd: [error|dbd] Problem reading contents of directory /config/dom-store
+Oct 18 15:47:29.471053 surfman: Error: failed to open() /config/boot-images/startup.png
+Oct 18 15:47:29.471083 surfman: Error: cannot open alleged PNG file startup.png
+Oct 18 15:47:29.471089 surfman: Error: there seems to be no splash screen
+Oct 18 15:47:29.471095 surfman: Error: getting info about splash surface failed.
+Oct 18 15:47:29.471101 surfman: Error: mmap_splash() failed - won't spin
+Oct 18 15:47:29.976638 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:30.434703 tapdisk[1116]: tapdisk-log: closing after 0 errors
+Oct 18 15:47:30.559971 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:35.764384 tapdisk[1136]: tapdisk-log: closing after 0 errors
+Oct 18 15:47:35.880033 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:41.064427 tapdisk[1143]: tapdisk-log: closing after 0 errors
+Oct 18 15:47:41.343437 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:41.357960 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:43.900632 VM Network (1): [    1.456123] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+Oct 18 15:47:48.205443 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:48.474565 tapdisk[1274]: tapdisk-log: closing after 0 errors
+Oct 18 15:47:48.595279 VM Network (1): kernel: [    1.456123] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+Oct 18 15:47:48.603017 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:48.625208 icbinn_svc: Fatal:svc_main.c:main:316:chdir to icbinn-path /config/certs/Network failed: errno 2
+Oct 18 15:47:48.626110 VM Network (1): Command returns an error
+Oct 18 15:47:48.651407 icbinn_svc: Fatal:svc_main.c:main:316:chdir to icbinn-path /config/certs/Network failed: errno 2
+Oct 18 15:47:48.941939 VM Network (1): ovs-vsctl: ovs|00002|db_ctl_base|ERR|external-ids:hostname=: argument does not end in "=" followed by a value.
+Oct 18 15:47:49.138005 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:49.138024 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:49.138031 VM Network (1): NetworkManager:    keyfile: Cannot read directory '/etc/NetworkManager/system-connections': (4) Error opening directory '/etc/NetworkManager/system-connections': No such file or directory
+Oct 18 15:47:49.138037 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:49.154546 VM Network (1): NetworkManager: <error> [1539877669.147883] [../../NetworkManager-0.9.2.0/src/nm-device-ethernet.c:717] real_update_hw_address(): (brbridged) failed to read hardware address (error 19)
+Oct 18 15:47:49.157429 VM Network (1): NetworkManager: <error> [1539877669.150799] [../../NetworkManager-0.9.2.0/src/nm-device-ethernet.c:752] real_update_permanent_hw_address(): (brbridged): unable to read permanent MAC address (error 19)
+Oct 18 15:47:49.160250 VM Network (1): NetworkManager: <error> [1539877669.153594] [../../NetworkManager-0.9.2.0/src/nm-device-ethernet.c:717] real_update_hw_address(): (brbridged) failed to read hardware address (error 19)
+Oct 18 15:47:49.628685 VM Network (1): NetworkManager: <warn> bluez error getting default adapter: The name org.bluez was not provided by any .service files
+Oct 18 15:47:51.051283 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:51.051447 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:51.051569 VM Network (1): NetworkManager:    keyfile: Cannot read directory '/etc/NetworkManager/system-connections': (4) Error opening directory '/etc/NetworkManager/system-connections': No such file or directory
+Oct 18 15:47:51.051643 VM Network (1): NetworkManager: Error parsing file '/etc/NetworkManager/nm-system-settings.conf': No such file or directory
+Oct 18 15:47:51.062003 VM Network (1): NetworkManager: <error> [1539877671.55363] [../../NetworkManager-0.9.2.0/src/nm-device-ethernet.c:752] real_update_permanent_hw_address(): (brbridged): unable to read permanent MAC address (error 0)
+Oct 18 15:47:51.523650 VM Network (1): NetworkManager: <warn> bluez error getting default adapter: The name org.bluez was not provided by any .service files
+Oct 18 15:47:54.334326 tapdisk[1289]: tapdisk-log: closing after 0 errors
+Oct 18 15:47:54.532083 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:47:59.523474 VM Network (1): nm-dispatcher.action: g_dir_open() could not open '/etc/NetworkManager/dispatcher.d'.  'Error opening directory '/etc/NetworkManager/dispatcher.d': No such file or directory'
+Oct 18 15:48:00.274436 tapdisk[1333]: tapdisk-log: closing after 0 errors
+Oct 18 15:48:00.606750 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:48:00.621373 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+Oct 18 15:48:00.639087 tapdisk: tap-err:tapdisk_server_init: Failed to initialize low memory handler: No such file or directory
+
