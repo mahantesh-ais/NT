@@ -10,7 +10,8 @@ Debugging ui (in machine web browser):
     OR 
 
    edit the bitbake file xenclient-uivm-image.bb and include the webkit-gtk-webinspector package in the install list
-   and give a build with that. Also, its required to change the options for surf to start. Edit the xinitrc file that will be installed in
+   and in the webkit_gtk_XX.bb remove the "enable-debugging=no" option from the EXTRA_OECONF, give a build with that.
+   Also, its required to change the options for surf to start. Edit the xinitrc file that will be installed in
    uivm and find surf launch and edit the options to be the following: -BdFgkNP (for more info see man pages for surf)
 
   * options to launch surf have webinspector and plugins disabled by default, the main reason to change the options above is to enable
